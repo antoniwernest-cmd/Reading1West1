@@ -1,0 +1,18 @@
+{
+  "storyRestoredFromBlanks": true,
+  "allQuestionsHaveAnswers": true,
+  "allMatchAnswersInBank": true,
+  "originalScoreStructure": {
+    "Pre-A": 19,
+    "Pre-AA": 23,
+    "A": 28,
+    "AA": 38,
+    "AAA": 52
+  },
+  "noDuplicateStoryPadBoard": true,
+  "storyPadNumbersRemoved": true,
+  "images": 5,
+  "parentCards": 40,
+  "cardsPerPage": 8,
+  "parentPages": 5
+}

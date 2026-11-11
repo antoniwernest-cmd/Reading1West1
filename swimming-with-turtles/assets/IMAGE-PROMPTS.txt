@@ -1,0 +1,17 @@
+Built-in image-generation tool; use case illustration-story.
+
+Shared prompt: Landscape illustration for a primary-school reading assessment titled Swimming with Turtles. Polished warm 3D animated children's adventure illustration, natural turquoise ocean and sandy tropical coastline, friendly expressive characters, no text or lettering, no collage, no border. Recurring characters: Noor (brown skin, dark hair, yellow-trimmed wetsuit), Maya (medium brown skin, curly hair, teal-trimmed wetsuit), Theo (light skin, short brown hair, red-trimmed wetsuit), Ben (light skin, short dark hair, blue-trimmed wetsuit), and Jo (adult woman dive guide, short dark hair, orange-trimmed wetsuit). Desmond is a friendly grey bottlenose dolphin. Big Shell is a large olive-green sea turtle with a broad brown patterned shell. Divers have proper masks, mouthpieces and air tanks underwater. Compose clearly, with one main narrative action and enough room around characters.
+
+cover.webp: Show the four children and adult Jo scuba diving together in clear shallow blue water, observing Big Shell gliding peacefully with Desmond nearby. Sunbeams, coral and seagrass. Inviting wide opening cover, no rescue or debris shown.
+
+page-1.webp: The four children and adult guide Jo look around a beautiful seagrass reef for their favourite turtle, but the turtle is absent. They stay together underwater, looking curious and puzzled. Do not show a turtle or dolphin in this image.
+
+page-2.webp: Desmond the grey dolphin approaches the children and their adult guide at the water's surface beside a small white dive boat. Desmond points his snout toward a distant quiet sandy beach on the coast. Friendly urgent discovery.
+
+Final page-2 edit: Use case precise-object-edit. Remove the sea turtle entirely from the foreground and replace that area seamlessly with clear turquoise rippling ocean water. Keep the four children, adult guide, dolphin, boat, distant beach, lighting, camera framing, 3D animation style and every other detail unchanged. The children are asking the dolphin for directions to a missing turtle, so there must be NO turtle anywhere in this image. Do not add text.
+
+page-3.webp: On the distant sandy beach, the children and adult Jo kneel near Big Shell, a large green sea turtle with loose discarded fishing rope around the edge of the shell and a front flipper. The adult carefully unties a loose rope loop while the children gather the freed pieces into a bucket. Desmond watches from shallow water. Gentle, non-graphic, hopeful, no tools, no injuries.
+
+page-4.webp: Big Shell, now completely free of debris, moves from wet sand into the turquoise sea. The four children and adult Jo smile together on the beach, holding a bucket of collected rope and litter. Desmond swims beside the turtle offshore. Joyful return to the ocean, warm sunshine.
+
+Final optimized images are saved in this assets directory. Original generated PNGs remain in the local Codex generated_images directory.

@@ -1,0 +1,40 @@
+/* The same assessment workspace, in ocean navy, turquoise and sea-glass blue. */
+:root{--ink:#153f53;--paper:#f6fcff;--muted:#587d8c;--accent:#087e9c;--line:#bcdde8;--gold:#85dce7;--pine:#073e59;--cranberry:#138da3;--night:#073e59}
+body{background:#073e59;color:#153f53}
+.camp-landing,.completion{background:#f5fbff}
+.camp-landing .landing-body{background:linear-gradient(135deg,#f8fdff,#e8f7fc)}
+.camp-landing h1 em{color:#0a819e}.camp-landing .brand,.camp-shell .eyebrow{color:#167b91}
+.camp-landing .intro,.camp-landing .level-desc{color:#466c80}
+.camp-landing .rules{background:#e2f2f9;border-color:#bbdce9;color:#214d61}
+.camp-landing .level-choice{border-color:#c0dce6;background:#f7fcff;color:#215164}
+.camp-landing .level-choice.active{border-color:#148da7;background:#d9f3fa;box-shadow:0 0 0 2px #94d6e555}
+.camp-landing .start-actions .primary,.camp-shell .primary,.completion .primary,dialog .primary{background:#087fa1;border-color:#087fa1;box-shadow:0 4px 0 #075c7a;color:white}
+.camp-landing .start-actions .primary:hover,.camp-shell .primary:hover,dialog .primary:hover{background:#066c8b}
+.camp-shell .wordmark{color:#f0fcff}.camp-shell .wordmark small{color:#88d4e4}
+.camp-shell .badge{border-color:#48849a;background:#104d68;color:#e6faff}
+.camp-shell .progress{background:#1f647c}.camp-shell .progress i{background:#65d6e7}
+.camp-shell .view-tabs{background:#175b75;border-color:#4e94ab}
+.camp-shell .view-tabs button{color:#e8faff}.camp-shell .view-tabs button.active{background:#e0f7fd;color:#154b62}
+.camp-shell .view-tabs .teacher-voice-entry,.camp-shell .top-info .teacher-voice-entry,.camp-shell .screen-mode{background:#195f78;border-color:#5497ac;color:#eafcff}
+.camp-shell .read-card,.camp-shell .story,.camp-shell .bike-notebook{background:#f5fbff}
+.camp-shell .workspace:is([data-view=story],[data-view=questions]) .assessment,.camp-shell .assessment{background-color:#f4fbff;border-color:#b7d6e3;background-image:repeating-linear-gradient(transparent 0,transparent 30px,#b6dbe65e 30px,#b6dbe65e 31px)}
+.camp-shell .assessment-head h2,.camp-shell .assessment-head h2:before{color:#1b6a83}
+.camp-shell .assessment:after{background:#9ccbd5}
+.camp-shell .reading-question-tabs{background:#e0eff5}.camp-shell .reading-question-tabs button{color:#2d6377}
+.camp-shell .reading-question-tabs button.active,.camp-shell .reading-match-switch button.active{background:#b9eaf5;color:#114f67;box-shadow:0 1px 4px #16495e22}
+.camp-shell .reading-match-switch button{background:#e1f1f7;color:#2b677b}
+.camp-shell #clozePanel>.cloze-bank{background:#e5f3fa;border-color:#b3d4e3}
+.camp-shell .cloze-bank-heading,.camp-shell .bike-bank h2{color:#215f78}
+.camp-shell .bike-bank{background-color:#edf8fd;border-color:#b6d9e6;background-image:repeating-linear-gradient(transparent 0,transparent 30px,#badde580 30px,#badde580 31px)}
+.camp-shell :is(.cloze-word,.reading-choice,.bike-choice){border-color:#26728b!important;color:#164d63!important;box-shadow:0 3px 0 #abc9d7}
+.camp-shell :is(.cloze-word,.reading-choice,.bike-choice):before{color:#4a8aa0}
+.camp-shell :is(.cloze-word,.reading-choice,.bike-choice):hover{background:#e3f8fe!important;border-color:#0b7b9e!important}
+.camp-shell :is(.cloze-word,.reading-choice,.bike-choice).placed{background:#e2f1f6!important}
+.camp-shell :is(.cloze-word,.reading-choice,.bike-choice).selected{outline-color:#1499b8!important;background:#d8f5ff!important}
+.camp-shell :is(.cloze-blank,.reading-pad,.bike-pad).filled{border-color:#208696!important;background:#d6f2f3!important;color:#135968!important}
+.camp-shell .text-size-tools{border-color:#71aebe;background:#f0fbff;color:#174e68}.camp-shell .text-size-tools button{background:#d6edf5!important;color:#174e68!important}.camp-shell .text-size-tools output{color:#174e68}
+.initial-blend{color:#085876;background:#c9edf7;text-decoration-color:#1b7c9b}
+.camp-shell .reference-content{background:#f5fbff}.camp-shell .reference-blank{background:#d9f0f9;color:#23576c}
+.quiet{background:#e1f0f7;border-color:#b8d5e3;color:#23586e}
+.bottom-bar{color:#c7e7f0}.cloze-help,.reading-match-help{color:#4a7284!important}
+@media print{body{background:white}.camp-shell .assessment,.camp-shell .bike-notebook{background:white}}

@@ -1,0 +1,26 @@
+Mountain biking Story
+
+Keep index.html, all JavaScript and CSS files, and the assets folder together. Upload the contents of this folder to the root of your GitHub repository. This version loads its scripts, styles and pictures as separate files. See README.md for GitHub Pages steps. No build or installation is needed.
+
+The layout fills one screen on Chromebooks and tablets. On wide landscape screens, the editable story and questions stay open together. A Full screen control is available to expand the activity when the browser supports it. Taller screens show matching pairs together; shorter screens keep the pair switches. Longer stories can use same-page text parts with all blank pads in a side word bank. Controls reflow when the screen rotates, and answer choices remain saved. Dragging, tap-to-place and keyboard access are available. Chromebook users can use a mouse or trackpad; tablet users can drag with one finger or tap a choice and then its pad. A second finger cannot take over or end the active drag. Rotating the screen preserves saved answers.
+
+Four illustrated chapters follow Noor, Maya, Theo, Ben and their guide Jo on a November mountain-bike outing. A final mountain-bike notebook asks children to drag names onto numbered parts. There are no maths activities.
+
+Pre-A: short early-reader text; 2 story blanks per chapter; 3 bike labels; 19 marks altogether.
+Pre-AA: developing-reader text; 2 story blanks, 1 question and 2 matching pairs per chapter; 3 bike labels; 23 marks altogether.
+A: Grades 1–2; four sentences and 3 story blanks per chapter; 4 bike labels; 28 marks altogether. Initial consonant blends are highlighted, and sentences have generous spacing.
+AA: Grades 3–4; 4 story blanks per chapter, 2 in each column on wider screens; 6 bike labels; 38 marks altogether.
+AAA: Grades 5–6; 6 story blanks per chapter, 3 in each column on wider screens; 8 bike labels; 52 marks altogether.
+All levels include multiple choice and same-page matching. Blanks are spread through the passage. On small screens, older levels may use text parts while keeping every answer pad available.
+
+Choose a Camper ID from the 20 autumn symbols. Read the story and fill the blanks, then open Trail notebook to answer its questions. Picture opens a larger illustration. Read this page opens the current text while answering. The actual word buttons sit immediately below the current passage at every reading level. Full story pages use the blanks in the text, without an extra row of answer pads. Short text views keep their existing numbered pads beside the choices. Words stay under the point where they are grabbed, using one pointer gesture. Dragged words snap into a landing pad as soon as the tile touches its border, before release. If released away from a pad, the word remains selected so the child can tap a pad. Students can drag answers again, swap filled labels, return them to the word bank, or tap a choice and then a pad. Keyboard users can Tab to choices and use Enter.
+
+Lock & continue appears only after every Question and Matching section has been opened and every story blank, question pad and matching pad contains a valid choice. Choices do not need to be correct to enable locking. Opening the notebook counts its visible question as visited. Clearing any story, question or matching answer hides Continue again. Earlier pages remain locked after confirmation. The final chapter opens the bike notebook. Finish appears only after all bike parts are labelled. Submitting displays Please call your teacher.
+
+Read-aloud is disabled by default. Teacher voice settings, code 259, enables or disables it. Play, Stop and four reading speeds are available when enabled. Reset or reopening disables voice again.
+
+Teacher access uses 259 after completion. View / print report opens six parent-friendly pages: a summary, four story chapters and the student-labelled bike diagram. Each chapter includes its picture, completed text, word bank, all questions/options, student responses, expected answers and marks. Print report can save as PDF through the browser. Save this PNG saves the selected page individually.
+
+Excel results contain eight illustrated sheets: Summary, Chapter 1–4, Bike diagram, Responses and Activity log. CSV and JSON backup are also available. Clear for next student clears the selected attempt and returns to the opening screen with an empty ID selection. Reset at the beginning is also available.
+
+The notebook uses a November palette of pine green, cranberry, warm gold and cream. Five original generated story illustrations accompany an accurately code-drawn bike. This is original fiction; Camp Big Bear is the setting of the story.

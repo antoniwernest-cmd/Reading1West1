@@ -1,0 +1,2090 @@
+{
+  "title": "Swimming with Turtles",
+  "levels": {
+    "Pre-A": {
+      "grade": "Early readers",
+      "titles": [
+        "Where is Big Shell?",
+        "A message from Desmond",
+        "The faraway beach",
+        "Back to the sea"
+      ],
+      "intro": "4 story chapters · 2 word blanks per chapter · a turtle notebook to finish.",
+      "defaultRate": 0.75,
+      "sections": [
+        {
+          "text": [
+            "Noor and her friends go scuba diving with Jo.",
+            "They look for Big Shell, their favourite turtle.",
+            "They see fish near the reef.",
+            "Big Shell is not there."
+          ],
+          "mc": [
+            {
+              "prompt": "Who are the friends looking for?",
+              "choices": [
+                "Big Shell",
+                "Jo"
+              ],
+              "answer": 0,
+              "skill": "Find a story detail",
+              "evidence": "They look for Big Shell"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Big Shell is a…",
+                "turtle"
+              ]
+            ],
+            "options": [
+              "turtle",
+              "dolphin"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "turtle"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Noor and her friends go scuba diving with Jo.",
+              "They look for Big Shell, their favourite {{c0}}.",
+              "They see fish near the {{c1}}.",
+              "Big Shell is not there."
+            ],
+            "parts": [
+              "Noor and her friends go scuba diving with Jo.\n\nThey look for Big Shell, their favourite {{c0}}.\n\nThey see fish near the {{c1}}.\n\nBig Shell is not there."
+            ],
+            "columns": [
+              "Noor and her friends go scuba diving with Jo.\n\nThey look for Big Shell, their favourite {{c0}}.\n\nThey see fish near the {{c1}}.\n\nBig Shell is not there."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "turtle",
+                "paragraph": 1,
+                "prompt": "They look for Big Shell, their favourite ______."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "reef",
+                "paragraph": 2,
+                "prompt": "They see fish near the ______."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "reef"
+              },
+              {
+                "id": "w0",
+                "word": "turtle"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "A dolphin swims to the friends.",
+            "The dolphin is named Desmond.",
+            "“Big Shell needs help,” says Desmond.",
+            "“Come to the faraway beach.” Jo and the children follow."
+          ],
+          "mc": [
+            {
+              "prompt": "Who tells the friends about Big Shell?",
+              "choices": [
+                "Ben",
+                "Desmond"
+              ],
+              "answer": 1,
+              "skill": "Find a story detail",
+              "evidence": "The dolphin is named Desmond"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Desmond says…",
+                "Big Shell needs help"
+              ]
+            ],
+            "options": [
+              "Big Shell needs help",
+              "Big Shell is asleep"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "Big Shell needs help"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "A {{c0}} swims to the friends.",
+              "The dolphin is named Desmond.",
+              "“Big Shell needs help,” says Desmond.",
+              "“Come to the faraway {{c1}}.” Jo and the children follow."
+            ],
+            "parts": [
+              "A {{c0}} swims to the friends.\n\nThe dolphin is named Desmond.\n\n“Big Shell needs help,” says Desmond.\n\n“Come to the faraway {{c1}}.” Jo and the children follow."
+            ],
+            "columns": [
+              "A {{c0}} swims to the friends.\n\nThe dolphin is named Desmond.\n\n“Big Shell needs help,” says Desmond.\n\n“Come to the faraway {{c1}}.” Jo and the children follow."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "dolphin",
+                "paragraph": 0,
+                "prompt": "A ______ swims to the friends."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "beach",
+                "paragraph": 3,
+                "prompt": "“Come to the faraway ______.” Jo and the children follow."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "beach"
+              },
+              {
+                "id": "w0",
+                "word": "dolphin"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Big Shell is on the sand.",
+            "Rope and plastic hold the turtle still.",
+            "Jo and the children gently untangle the rope.",
+            "They put the debris in a bucket."
+          ],
+          "mc": [
+            {
+              "prompt": "What holds Big Shell still?",
+              "choices": [
+                "Rope and plastic",
+                "A shell"
+              ],
+              "answer": 0,
+              "skill": "Find a story detail",
+              "evidence": "Rope and plastic hold the turtle still"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "The debris goes in…",
+                "a bucket"
+              ]
+            ],
+            "options": [
+              "a bucket",
+              "the sea"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "a bucket"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Big Shell is on the {{c0}}.",
+              "Rope and plastic hold the turtle still.",
+              "Jo and the children gently untangle the {{c1}}.",
+              "They put the debris in a bucket."
+            ],
+            "parts": [
+              "Big Shell is on the {{c0}}.\n\nRope and plastic hold the turtle still.\n\nJo and the children gently untangle the {{c1}}.\n\nThey put the debris in a bucket."
+            ],
+            "columns": [
+              "Big Shell is on the {{c0}}.\n\nRope and plastic hold the turtle still.\n\nJo and the children gently untangle the {{c1}}.\n\nThey put the debris in a bucket."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "sand",
+                "paragraph": 0,
+                "prompt": "Big Shell is on the ______."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "rope",
+                "paragraph": 2,
+                "prompt": "Jo and the children gently untangle the ______."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "rope"
+              },
+              {
+                "id": "w0",
+                "word": "sand"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Big Shell is free.",
+            "The turtle moves a flipper and goes back to the sea.",
+            "Desmond swims nearby.",
+            "The children smile. Together, they helped a sea creature."
+          ],
+          "mc": [
+            {
+              "prompt": "What is this story mostly about?",
+              "choices": [
+                "Finding a new boat",
+                "Helping a turtle"
+              ],
+              "answer": 1,
+              "skill": "Identify the main idea",
+              "evidence": "Together, they helped a sea creature"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "At the end, Big Shell is…",
+                "free"
+              ]
+            ],
+            "options": [
+              "free",
+              "still tangled"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "free"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Big Shell is free.",
+              "The turtle moves a {{c0}} and goes back to the {{c1}}.",
+              "Desmond swims nearby.",
+              "The children smile. Together, they helped a sea creature."
+            ],
+            "parts": [
+              "Big Shell is free.\n\nThe turtle moves a {{c0}} and goes back to the {{c1}}.\n\nDesmond swims nearby.\n\nThe children smile. Together, they helped a sea creature."
+            ],
+            "columns": [
+              "Big Shell is free.\n\nThe turtle moves a {{c0}} and goes back to the {{c1}}.\n\nDesmond swims nearby.\n\nThe children smile. Together, they helped a sea creature."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "flipper",
+                "paragraph": 1,
+                "prompt": "The turtle moves a ______ and goes back to the sea."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "sea",
+                "paragraph": 1,
+                "prompt": "The turtle moves a flipper and goes back to the ______."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "sea"
+              },
+              {
+                "id": "w0",
+                "word": "flipper"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Pre-AA": {
+      "grade": "Developing readers",
+      "titles": [
+        "Where is Big Shell?",
+        "A message from Desmond",
+        "The faraway beach",
+        "Back to the sea"
+      ],
+      "sections": [
+        {
+          "text": [
+            "Noor and her friends go scuba diving with Jo.",
+            "Jo checks their gear before they go into the water.",
+            "The friends look for their favourite turtle, Big Shell.",
+            "They see tiny fish near the reef.",
+            "They look all around, but Big Shell is not there."
+          ],
+          "mc": [
+            {
+              "prompt": "Who are the friends looking for?",
+              "choices": [
+                "Desmond",
+                "Jo",
+                "Big Shell"
+              ],
+              "answer": 2,
+              "skill": "Find a story detail",
+              "evidence": "The friends look for their favourite turtle, Big Shell"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Jo",
+                "checks their gear"
+              ],
+              [
+                "The friends",
+                "look for Big Shell"
+              ]
+            ],
+            "options": [
+              "look for Big Shell",
+              "checks their gear"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "checks their gear",
+              "look for Big Shell"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Noor and her friends go scuba diving with Jo.",
+              "Jo checks their gear before they go into the water.",
+              "The friends look for their favourite {{c0}}, Big Shell.",
+              "They see tiny {{c1}} near the reef.",
+              "They look all around, but Big Shell is not there."
+            ],
+            "parts": [
+              "Noor and her friends go scuba diving with Jo.\n\nJo checks their gear before they go into the water.\n\nThe friends look for their favourite {{c0}}, Big Shell.\n\nThey see tiny {{c1}} near the reef.\n\nThey look all around, but Big Shell is not there."
+            ],
+            "columns": [
+              "Noor and her friends go scuba diving with Jo.\n\nJo checks their gear before they go into the water.\n\nThe friends look for their favourite {{c0}}, Big Shell.\n\nThey see tiny {{c1}} near the reef.\n\nThey look all around, but Big Shell is not there."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "turtle",
+                "paragraph": 2,
+                "prompt": "The friends look for their favourite ______, Big Shell."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "fish",
+                "paragraph": 3,
+                "prompt": "They see tiny ______ near the reef."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "fish"
+              },
+              {
+                "id": "w0",
+                "word": "turtle"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "A grey dolphin swims up to the boat.",
+            "“I am Desmond,” he says.",
+            "“Big Shell needs help. The turtle is on a beach far away.”",
+            "Jo asks Desmond to show them the way.",
+            "Desmond swims ahead, and the friends follow him in their boat."
+          ],
+          "mc": [
+            {
+              "prompt": "What does Desmond do to help?",
+              "choices": [
+                "Finds a new boat",
+                "Shows them the way",
+                "Brings them a shell"
+              ],
+              "answer": 1,
+              "skill": "Find a story detail",
+              "evidence": "Desmond swims ahead, and the friends follow him in their boat"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Desmond",
+                "swims ahead"
+              ],
+              [
+                "Big Shell",
+                "needs help"
+              ]
+            ],
+            "options": [
+              "swims ahead",
+              "needs help"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "swims ahead",
+              "needs help"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "A grey {{c0}} swims up to the boat.",
+              "“I am Desmond,” he says.",
+              "“Big Shell needs help. The turtle is on a {{c1}} far away.”",
+              "Jo asks Desmond to show them the way.",
+              "Desmond swims ahead, and the friends follow him in their boat."
+            ],
+            "parts": [
+              "A grey {{c0}} swims up to the boat.\n\n“I am Desmond,” he says.\n\n“Big Shell needs help. The turtle is on a {{c1}} far away.”\n\nJo asks Desmond to show them the way.\n\nDesmond swims ahead, and the friends follow him in their boat."
+            ],
+            "columns": [
+              "A grey {{c0}} swims up to the boat.\n\n“I am Desmond,” he says.\n\n“Big Shell needs help. The turtle is on a {{c1}} far away.”\n\nJo asks Desmond to show them the way.\n\nDesmond swims ahead, and the friends follow him in their boat."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "dolphin",
+                "paragraph": 0,
+                "prompt": "A grey ______ swims up to the boat."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "beach",
+                "paragraph": 2,
+                "prompt": "“Big Shell needs help. The turtle is on a ______ far away.”"
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "dolphin"
+              },
+              {
+                "id": "w1",
+                "word": "beach"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "At the beach, Big Shell lies on the sand.",
+            "A piece of rope is wrapped around a flipper.",
+            "Jo gently loosens the rope while the children hold a bucket.",
+            "The rope slips off, and Big Shell can move again.",
+            "The children put the rope and plastic in the bucket."
+          ],
+          "mc": [
+            {
+              "prompt": "What keeps Big Shell from moving?",
+              "choices": [
+                "Rope around a flipper",
+                "A heavy shell",
+                "A bucket on the sand"
+              ],
+              "answer": 0,
+              "skill": "Find a story detail",
+              "evidence": "A piece of rope is wrapped around a flipper"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Jo",
+                "gently loosens the rope"
+              ],
+              [
+                "The children",
+                "hold a bucket"
+              ]
+            ],
+            "options": [
+              "hold a bucket",
+              "gently loosens the rope"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "gently loosens the rope",
+              "hold a bucket"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "At the beach, Big Shell lies on the sand.",
+              "A piece of {{c0}} is wrapped around a flipper.",
+              "Jo gently loosens the rope while the children hold a {{c1}}.",
+              "The rope slips off, and Big Shell can move again.",
+              "The children put the rope and plastic in the bucket."
+            ],
+            "parts": [
+              "At the beach, Big Shell lies on the sand.\n\nA piece of {{c0}} is wrapped around a flipper.\n\nJo gently loosens the rope while the children hold a {{c1}}.\n\nThe rope slips off, and Big Shell can move again.\n\nThe children put the rope and plastic in the bucket."
+            ],
+            "columns": [
+              "At the beach, Big Shell lies on the sand.\n\nA piece of {{c0}} is wrapped around a flipper.\n\nJo gently loosens the rope while the children hold a {{c1}}.\n\nThe rope slips off, and Big Shell can move again.\n\nThe children put the rope and plastic in the bucket."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "rope",
+                "paragraph": 1,
+                "prompt": "A piece of ______ is wrapped around a flipper."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "bucket",
+                "paragraph": 2,
+                "prompt": "Jo gently loosens the rope while the children hold a ______."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "bucket"
+              },
+              {
+                "id": "w0",
+                "word": "rope"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Big Shell lifts its head and crawls toward the water.",
+            "The children step back to make a clear path.",
+            "Soon the turtle is swimming in the sea again.",
+            "Desmond splashes beside the boat.",
+            "Noor smiles because the friends worked together to help Big Shell."
+          ],
+          "mc": [
+            {
+              "prompt": "Why does Noor smile?",
+              "choices": [
+                "She found a new shell",
+                "She won a race",
+                "The friends helped Big Shell"
+              ],
+              "answer": 2,
+              "skill": "Find a story detail",
+              "evidence": "the friends worked together to help Big Shell"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Big Shell",
+                "swims in the sea"
+              ],
+              [
+                "Desmond",
+                "splashes beside the boat"
+              ]
+            ],
+            "options": [
+              "swims in the sea",
+              "splashes beside the boat"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "swims in the sea",
+              "splashes beside the boat"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Big Shell lifts its head and crawls toward the {{c0}}.",
+              "The children step back to make a clear path.",
+              "Soon the turtle is {{c1}} in the sea again.",
+              "Desmond splashes beside the boat.",
+              "Noor smiles because the friends worked together to help Big Shell."
+            ],
+            "parts": [
+              "Big Shell lifts its head and crawls toward the {{c0}}.\n\nThe children step back to make a clear path.\n\nSoon the turtle is {{c1}} in the sea again.\n\nDesmond splashes beside the boat.\n\nNoor smiles because the friends worked together to help Big Shell."
+            ],
+            "columns": [
+              "Big Shell lifts its head and crawls toward the {{c0}}.\n\nThe children step back to make a clear path.\n\nSoon the turtle is {{c1}} in the sea again.\n\nDesmond splashes beside the boat.\n\nNoor smiles because the friends worked together to help Big Shell."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "water",
+                "paragraph": 0,
+                "prompt": "Big Shell lifts its head and crawls toward the ______."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "swimming",
+                "paragraph": 2,
+                "prompt": "Soon the turtle is ______ in the sea again."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "water"
+              },
+              {
+                "id": "w1",
+                "word": "swimming"
+              }
+            ]
+          }
+        }
+      ],
+      "intro": "4 story chapters · 2 word blanks and 2 matches per chapter · a turtle notebook to finish.",
+      "defaultRate": 0.75
+    },
+    "A": {
+      "grade": "Grades 1–2",
+      "titles": [
+        "Where is Big Shell?",
+        "A message from Desmond",
+        "The faraway beach",
+        "Back to the sea"
+      ],
+      "intro": "4 story chapters · 3 word blanks per chapter · a turtle notebook to finish.",
+      "defaultRate": 0.8,
+      "sections": [
+        {
+          "text": [
+            "Noor, Maya, Theo, and Ben went scuba diving with their guide, Jo. They put on a mask, fins, and an air tank. Jo checked their gear before they entered the clear ocean.",
+            "The friends hoped to see their favourite turtle, Big Shell. They searched the reef and the soft seagrass. Small fish flashed past, but Big Shell was nowhere to be seen."
+          ],
+          "mc": [
+            {
+              "prompt": "Why do the friends search the reef?",
+              "choices": [
+                "To collect coral",
+                "To find Big Shell",
+                "To race their guide"
+              ],
+              "answer": 1,
+              "skill": "Find a story detail",
+              "evidence": "They hoped to see their favourite turtle"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Jo",
+                "checked their gear"
+              ],
+              [
+                "The friends",
+                "looked for Big Shell"
+              ]
+            ],
+            "options": [
+              "looked for Big Shell",
+              "checked their gear"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "checked their gear",
+              "looked for Big Shell"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Noor, Maya, Theo, and Ben went scuba diving with their guide, Jo. They put on a {{c0}}, fins, and an air tank. Jo checked their gear before they entered the clear ocean.",
+              "The friends hoped to see their favourite {{c1}}, Big Shell. They searched the {{c2}} and the soft seagrass. Small fish flashed past, but Big Shell was nowhere to be seen."
+            ],
+            "parts": [
+              "Noor, Maya, Theo, and Ben went scuba diving with their guide, Jo. They put on a {{c0}}, fins, and an air tank. Jo checked their gear before they entered the clear ocean.\n\nThe friends hoped to see their favourite {{c1}}, Big Shell. They searched the {{c2}} and the soft seagrass. Small fish flashed past, but Big Shell was nowhere to be seen."
+            ],
+            "columns": [
+              "Noor, Maya, Theo, and Ben went scuba diving with their guide, Jo. They put on a {{c0}}, fins, and an air tank. Jo checked their gear before they entered the clear ocean.\n\nThe friends hoped to see their favourite {{c1}}, Big Shell. They searched the {{c2}} and the soft seagrass. Small fish flashed past, but Big Shell was nowhere to be seen."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "mask",
+                "paragraph": 0,
+                "prompt": "Noor, Maya, Theo, and Ben went scuba diving with their guide, Jo. They put on a ______, fins, and an air tank. Jo checked their gear before they entered the clear ocean."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "turtle",
+                "paragraph": 1,
+                "prompt": "The friends hoped to see their favourite ______, Big Shell. They searched the reef and the soft seagrass. Small fish flashed past, but Big Shell was nowhere to be seen."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "reef",
+                "paragraph": 1,
+                "prompt": "The friends hoped to see their favourite turtle, Big Shell. They searched the ______ and the soft seagrass. Small fish flashed past, but Big Shell was nowhere to be seen."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "turtle"
+              },
+              {
+                "id": "w2",
+                "word": "reef"
+              },
+              {
+                "id": "w0",
+                "word": "mask"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "A grey dolphin appeared near the boat. “I am Desmond,” he said. “I saw Big Shell on a beach far along the coast. The turtle is caught in debris.”",
+            "“Please show us the way,” said Jo. Desmond led them toward the distant shore. The children stayed with Jo as the boat followed the dolphin. They wanted to help their missing friend."
+          ],
+          "mc": [
+            {
+              "prompt": "What does Desmond do for the friends?",
+              "choices": [
+                "Shows them the way",
+                "Hides their boat",
+                "Brings them a shell"
+              ],
+              "answer": 0,
+              "skill": "Connect actions and purpose",
+              "evidence": "Desmond led them toward the distant shore"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Desmond",
+                "knows the way"
+              ],
+              [
+                "Big Shell",
+                "needs help"
+              ]
+            ],
+            "options": [
+              "needs help",
+              "knows the way"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "knows the way",
+              "needs help"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "A grey {{c0}} appeared near the boat. “I am Desmond,” he said. “I saw Big Shell on a {{c1}} far along the coast. The turtle is caught in debris.”",
+              "“Please show us the way,” said Jo. Desmond led them toward the distant {{c2}}. The children stayed with Jo as the boat followed the dolphin. They wanted to help their missing friend."
+            ],
+            "parts": [
+              "A grey {{c0}} appeared near the boat. “I am Desmond,” he said. “I saw Big Shell on a {{c1}} far along the coast. The turtle is caught in debris.”\n\n“Please show us the way,” said Jo. Desmond led them toward the distant {{c2}}. The children stayed with Jo as the boat followed the dolphin. They wanted to help their missing friend."
+            ],
+            "columns": [
+              "A grey {{c0}} appeared near the boat. “I am Desmond,” he said. “I saw Big Shell on a {{c1}} far along the coast. The turtle is caught in debris.”\n\n“Please show us the way,” said Jo. Desmond led them toward the distant {{c2}}. The children stayed with Jo as the boat followed the dolphin. They wanted to help their missing friend."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "dolphin",
+                "paragraph": 0,
+                "prompt": "A grey ______ appeared near the boat. “I am Desmond,” he said. “I saw Big Shell on a beach far along the coast. The turtle is caught in debris.”"
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "beach",
+                "paragraph": 0,
+                "prompt": "A grey dolphin appeared near the boat. “I am Desmond,” he said. “I saw Big Shell on a ______ far along the coast. The turtle is caught in debris.”"
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "shore",
+                "paragraph": 1,
+                "prompt": "“Please show us the way,” said Jo. Desmond led them toward the distant ______. The children stayed with Jo as the boat followed the dolphin. They wanted to help their missing friend."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "beach"
+              },
+              {
+                "id": "w2",
+                "word": "shore"
+              },
+              {
+                "id": "w0",
+                "word": "dolphin"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Desmond stopped by a quiet beach. Big Shell lay on the wet sand, with rope and plastic tangled around a front flipper. The turtle could not move freely.",
+            "Jo knelt beside Big Shell. The children helped hold a bucket while Jo loosened the rope. With gentle hands, they worked together to untangle the last loop. They collected every piece of debris."
+          ],
+          "mc": [
+            {
+              "prompt": "Why do the friends collect the debris?",
+              "choices": [
+                "To leave it on the sand",
+                "To keep it out of the sea",
+                "To make a necklace"
+              ],
+              "answer": 1,
+              "skill": "Connect actions and purpose",
+              "evidence": "They collected every piece of debris"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "The rope",
+                "held a flipper"
+              ],
+              [
+                "The bucket",
+                "held the debris"
+              ]
+            ],
+            "options": [
+              "held the debris",
+              "held a flipper"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "held a flipper",
+              "held the debris"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Desmond stopped by a quiet beach. Big Shell lay on the wet {{c0}}, with rope and plastic tangled around a front {{c1}}. The turtle could not move freely.",
+              "Jo knelt beside Big Shell. The children helped hold a {{c2}} while Jo loosened the rope. With gentle hands, they worked together to untangle the last loop. They collected every piece of debris."
+            ],
+            "parts": [
+              "Desmond stopped by a quiet beach. Big Shell lay on the wet {{c0}}, with rope and plastic tangled around a front {{c1}}. The turtle could not move freely.\n\nJo knelt beside Big Shell. The children helped hold a {{c2}} while Jo loosened the rope. With gentle hands, they worked together to untangle the last loop. They collected every piece of debris."
+            ],
+            "columns": [
+              "Desmond stopped by a quiet beach. Big Shell lay on the wet {{c0}}, with rope and plastic tangled around a front {{c1}}. The turtle could not move freely.\n\nJo knelt beside Big Shell. The children helped hold a {{c2}} while Jo loosened the rope. With gentle hands, they worked together to untangle the last loop. They collected every piece of debris."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "sand",
+                "paragraph": 0,
+                "prompt": "Desmond stopped by a quiet beach. Big Shell lay on the wet ______, with rope and plastic tangled around a front flipper. The turtle could not move freely."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "flipper",
+                "paragraph": 0,
+                "prompt": "Desmond stopped by a quiet beach. Big Shell lay on the wet sand, with rope and plastic tangled around a front ______. The turtle could not move freely."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "bucket",
+                "paragraph": 1,
+                "prompt": "Jo knelt beside Big Shell. The children helped hold a ______ while Jo loosened the rope. With gentle hands, they worked together to untangle the last loop. They collected every piece of debris."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "flipper"
+              },
+              {
+                "id": "w2",
+                "word": "bucket"
+              },
+              {
+                "id": "w0",
+                "word": "sand"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Big Shell moved a flipper, lifted its head, and crawled toward the water. The children stood back to leave a clear path. Soon the turtle was swimming in the sea again.",
+            "Desmond splashed beside the boat. “Thank you for helping,” he said. Noor smiled. Their adventure had become a rescue. By listening and working together, the friends had helped protect an ocean animal."
+          ],
+          "mc": [
+            {
+              "prompt": "What is the main idea of the whole story?",
+              "choices": [
+                "Teamwork can help protect sea animals",
+                "A boat is faster than a dolphin",
+                "Every beach has the same shells"
+              ],
+              "answer": 0,
+              "skill": "Identify the main idea",
+              "evidence": "By listening and working together, the friends helped protect an ocean animal"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Big Shell",
+                "returned to the sea"
+              ],
+              [
+                "The friends",
+                "worked together"
+              ]
+            ],
+            "options": [
+              "worked together",
+              "returned to the sea"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "returned to the sea",
+              "worked together"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Big Shell moved a flipper, lifted its head, and crawled toward the {{c0}}. The children stood back to leave a clear path. Soon the turtle was swimming in the sea again.",
+              "Desmond splashed beside the boat. “Thank you for helping,” he said. Noor smiled. Their adventure had become a {{c1}}. By listening and working together, the friends had helped protect an {{c2}} animal."
+            ],
+            "parts": [
+              "Big Shell moved a flipper, lifted its head, and crawled toward the {{c0}}. The children stood back to leave a clear path. Soon the turtle was swimming in the sea again.\n\nDesmond splashed beside the boat. “Thank you for helping,” he said. Noor smiled. Their adventure had become a {{c1}}. By listening and working together, the friends had helped protect an {{c2}} animal."
+            ],
+            "columns": [
+              "Big Shell moved a flipper, lifted its head, and crawled toward the {{c0}}. The children stood back to leave a clear path. Soon the turtle was swimming in the sea again.\n\nDesmond splashed beside the boat. “Thank you for helping,” he said. Noor smiled. Their adventure had become a {{c1}}. By listening and working together, the friends had helped protect an {{c2}} animal."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "water",
+                "paragraph": 0,
+                "prompt": "Big Shell moved a flipper, lifted its head, and crawled toward the ______. The children stood back to leave a clear path. Soon the turtle was swimming in the sea again."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "rescue",
+                "paragraph": 1,
+                "prompt": "Desmond splashed beside the boat. “Thank you for helping,” he said. Noor smiled. Their adventure had become a ______. By listening and working together, the friends had helped protect an ocean animal."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "ocean",
+                "paragraph": 1,
+                "prompt": "Desmond splashed beside the boat. “Thank you for helping,” he said. Noor smiled. Their adventure had become a rescue. By listening and working together, the friends had helped protect an ______ animal."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w1",
+                "word": "rescue"
+              },
+              {
+                "id": "w2",
+                "word": "ocean"
+              },
+              {
+                "id": "w0",
+                "word": "water"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "AA": {
+      "grade": "Grades 3–4",
+      "titles": [
+        "Where is Big Shell?",
+        "A message from Desmond",
+        "The faraway beach",
+        "Back to the sea"
+      ],
+      "intro": "4 story chapters · 4 word blanks per chapter · a turtle notebook to finish.",
+      "defaultRate": 0.85,
+      "sections": [
+        {
+          "text": [
+            "Sunlight flickered across the ocean as Noor, Maya, Theo, and Ben prepared to scuba dive with their guide, Jo. Each child wore a mask and fins. An air tank helped each diver breathe underwater. Jo checked the equipment and reminded everyone to stay together.",
+            "The children hoped to visit Big Shell, the sea turtle they often watched near the reef. Big Shell usually glided between the coral and seagrass, searching for food. Today, only tiny fish moved through that familiar place. The friends searched carefully without touching the reef. When Jo gave the signal to return to the boat, Noor looked back once more. Where could their favourite turtle be?"
+          ],
+          "mc": [
+            {
+              "prompt": "Why are the children puzzled?",
+              "choices": [
+                "Their boat has disappeared",
+                "Big Shell is missing from a familiar place",
+                "They have never seen a turtle"
+              ],
+              "answer": 1,
+              "skill": "Connect details",
+              "evidence": "Big Shell usually glided near the reef; today only fish were there"
+            },
+            {
+              "prompt": "Which sentence best gives this chapter’s main idea?",
+              "choices": [
+                "The friends search for a turtle they cannot find",
+                "The friends collect beautiful coral",
+                "The children decide to race underwater"
+              ],
+              "answer": 0,
+              "skill": "Identify the main idea",
+              "evidence": "They searched carefully for Big Shell"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "The air tank",
+                "helps a diver breathe"
+              ],
+              [
+                "The reef",
+                "is Big Shell’s usual home"
+              ]
+            ],
+            "options": [
+              "is Big Shell’s usual home",
+              "helps a diver breathe"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "helps a diver breathe",
+              "is Big Shell’s usual home"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Sunlight flickered across the {{c0}} as Noor, Maya, Theo, and Ben prepared to scuba dive with their guide, Jo. Each child wore a mask and fins. An air tank helped each diver {{c1}} underwater. Jo checked the equipment and reminded everyone to stay together.",
+              "The children hoped to visit Big Shell, the sea turtle they often watched near the reef. Big Shell usually glided between the {{c2}} and seagrass, searching for food. Today, only tiny fish moved through that familiar place. The friends searched carefully without touching the reef. When Jo gave the {{c3}} to return to the boat, Noor looked back once more. Where could their favourite turtle be?"
+            ],
+            "parts": [
+              "Sunlight flickered across the {{c0}} as Noor, Maya, Theo, and Ben prepared to scuba dive with their guide, Jo. Each child wore a mask and fins. An air tank helped each diver {{c1}} underwater. Jo checked the equipment and reminded everyone to stay together.\n\nThe children hoped to visit Big Shell, the sea turtle they ",
+              "often watched near the reef. Big Shell usually glided between the {{c2}} and seagrass, searching for food. Today, only tiny fish moved through that familiar place. The friends searched carefully without touching the reef. When Jo gave the {{c3}} to return to the boat, Noor looked back once more. Where could their favourite turtle be?"
+            ],
+            "columns": [
+              "Sunlight flickered across the {{c0}} as Noor, Maya, Theo, and Ben prepared to scuba dive with their guide, Jo. Each child wore a mask and fins. An air tank helped each diver {{c1}} underwater. Jo checked the equipment and reminded everyone to stay together.\n\nThe children hoped to visit Big Shell, the sea turtle they ",
+              "often watched near the reef. Big Shell usually glided between the {{c2}} and seagrass, searching for food. Today, only tiny fish moved through that familiar place. The friends searched carefully without touching the reef. When Jo gave the {{c3}} to return to the boat, Noor looked back once more. Where could their favourite turtle be?"
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "ocean",
+                "paragraph": 0,
+                "prompt": "Sunlight flickered across the ______ as Noor, Maya, Theo, and Ben prepared to scuba dive with their guide, Jo. Each child wore a mask and fins. An air tank helped each diver breathe underwater. Jo checked the equipment and reminded everyone to stay together."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "breathe",
+                "paragraph": 0,
+                "prompt": "Sunlight flickered across the ocean as Noor, Maya, Theo, and Ben prepared to scuba dive with their guide, Jo. Each child wore a mask and fins. An air tank helped each diver ______ underwater. Jo checked the equipment and reminded everyone to stay together."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "coral",
+                "paragraph": 1,
+                "prompt": "The children hoped to visit Big Shell, the sea turtle they often watched near the reef. Big Shell usually glided between the ______ and seagrass, searching for food. Today, only tiny fish moved through that familiar place. The friends searched carefully without touching the reef. When Jo gave the signal to return to the boat, Noor looked back once more. Where could their favourite turtle be?"
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "signal",
+                "paragraph": 1,
+                "prompt": "The children hoped to visit Big Shell, the sea turtle they often watched near the reef. Big Shell usually glided between the coral and seagrass, searching for food. Today, only tiny fish moved through that familiar place. The friends searched carefully without touching the reef. When Jo gave the ______ to return to the boat, Noor looked back once more. Where could their favourite turtle be?"
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "ocean"
+              },
+              {
+                "id": "w3",
+                "word": "signal"
+              },
+              {
+                "id": "w2",
+                "word": "coral"
+              },
+              {
+                "id": "w1",
+                "word": "breathe"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "As the children climbed into the boat, a grey dolphin surfaced beside them. “My name is Desmond,” he said. “Are you looking for Big Shell?” Noor leaned forward. Desmond had seen the turtle on a faraway beach, caught in a tangle of rope and plastic. Waves had carried the debris toward the shore.",
+            "Jo listened closely, then asked Desmond to guide them. The dolphin swam along the coast, keeping near the surface so the boat could follow. The children watched for his curved fin. It was a longer journey than they had expected, but now they had a direction and a reason to keep going: Big Shell needed their help."
+          ],
+          "mc": [
+            {
+              "prompt": "Why does Desmond stay near the surface?",
+              "choices": [
+                "So the boat can follow him",
+                "So he can hide from Jo",
+                "So he can carry the boat"
+              ],
+              "answer": 0,
+              "skill": "Infer from a story detail",
+              "evidence": "keeping near the surface so the boat could follow"
+            },
+            {
+              "prompt": "How does Desmond change the children’s search?",
+              "choices": [
+                "He tells them to stop looking",
+                "He gives them useful information and a direction",
+                "He says Big Shell is on the reef"
+              ],
+              "answer": 1,
+              "skill": "Connect cause and effect",
+              "evidence": "Desmond saw Big Shell on a faraway beach"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Desmond",
+                "guides the boat"
+              ],
+              [
+                "The coast",
+                "leads toward the faraway beach"
+              ]
+            ],
+            "options": [
+              "leads toward the faraway beach",
+              "guides the boat"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "guides the boat",
+              "leads toward the faraway beach"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "As the children climbed into the boat, a grey {{c0}} surfaced beside them. “My name is Desmond,” he said. “Are you looking for Big Shell?” Noor leaned forward. Desmond had seen the turtle on a faraway beach, caught in a tangle of rope and plastic. Waves had carried the {{c1}} toward the shore.",
+              "Jo listened closely, then asked Desmond to guide them. The dolphin swam along the coast, keeping near the {{c2}} so the boat could follow. The children watched for his curved fin. It was a longer {{c3}} than they had expected, but now they had a direction and a reason to keep going: Big Shell needed their help."
+            ],
+            "parts": [
+              "As the children climbed into the boat, a grey {{c0}} surfaced beside them. “My name is Desmond,” he said. “Are you looking for Big Shell?” Noor leaned forward. Desmond had seen the turtle on a faraway beach, caught in a tangle of rope and plastic. Waves had carried the {{c1}} toward the shore.\n\nJo listened ",
+              "closely, then asked Desmond to guide them. The dolphin swam along the coast, keeping near the {{c2}} so the boat could follow. The children watched for his curved fin. It was a longer {{c3}} than they had expected, but now they had a direction and a reason to keep going: Big Shell needed their help."
+            ],
+            "columns": [
+              "As the children climbed into the boat, a grey {{c0}} surfaced beside them. “My name is Desmond,” he said. “Are you looking for Big Shell?” Noor leaned forward. Desmond had seen the turtle on a faraway beach, caught in a tangle of rope and plastic. Waves had carried the {{c1}} toward the shore.\n\nJo listened ",
+              "closely, then asked Desmond to guide them. The dolphin swam along the coast, keeping near the {{c2}} so the boat could follow. The children watched for his curved fin. It was a longer {{c3}} than they had expected, but now they had a direction and a reason to keep going: Big Shell needed their help."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "dolphin",
+                "paragraph": 0,
+                "prompt": "As the children climbed into the boat, a grey ______ surfaced beside them. “My name is Desmond,” he said. “Are you looking for Big Shell?” Noor leaned forward. Desmond had seen the turtle on a faraway beach, caught in a tangle of rope and plastic. Waves had carried the debris toward the shore."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "debris",
+                "paragraph": 0,
+                "prompt": "As the children climbed into the boat, a grey dolphin surfaced beside them. “My name is Desmond,” he said. “Are you looking for Big Shell?” Noor leaned forward. Desmond had seen the turtle on a faraway beach, caught in a tangle of rope and plastic. Waves had carried the ______ toward the shore."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "surface",
+                "paragraph": 1,
+                "prompt": "Jo listened closely, then asked Desmond to guide them. The dolphin swam along the coast, keeping near the ______ so the boat could follow. The children watched for his curved fin. It was a longer journey than they had expected, but now they had a direction and a reason to keep going: Big Shell needed their help."
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "journey",
+                "paragraph": 1,
+                "prompt": "Jo listened closely, then asked Desmond to guide them. The dolphin swam along the coast, keeping near the surface so the boat could follow. The children watched for his curved fin. It was a longer ______ than they had expected, but now they had a direction and a reason to keep going: Big Shell needed their help."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "dolphin"
+              },
+              {
+                "id": "w3",
+                "word": "journey"
+              },
+              {
+                "id": "w2",
+                "word": "surface"
+              },
+              {
+                "id": "w1",
+                "word": "debris"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Beyond a rocky point, Desmond slowed beside a quiet beach. Big Shell lay on wet sand close to the water. A loop of rope crossed the shell and trapped a front flipper. A strip of plastic had become twisted into the rope. The turtle lifted its head but could not crawl freely.",
+            "Jo asked the children to make room and bring the collection bucket. Together, they helped loosen the debris without pulling on the flipper. Maya held the bucket, Ben gathered the freed plastic, and Noor and Theo helped Jo untangle the loose rope. They used gentle movements and paused when Big Shell shifted. At last, the final loop slipped away. The children checked the sand for small pieces of litter."
+          ],
+          "mc": [
+            {
+              "prompt": "Which detail shows that the children work as a team?",
+              "choices": [
+                "Each child has a job during the rescue",
+                "They all run to different beaches",
+                "They leave the bucket on the boat"
+              ],
+              "answer": 0,
+              "skill": "Use evidence from the text",
+              "evidence": "Maya held the bucket; Ben gathered plastic; Noor and Theo helped Jo"
+            },
+            {
+              "prompt": "What is this chapter mostly about?",
+              "choices": [
+                "Learning to steer a boat",
+                "Collecting colourful shells",
+                "Carefully freeing Big Shell from debris"
+              ],
+              "answer": 2,
+              "skill": "Identify the main idea",
+              "evidence": "At last, the final loop slipped away"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Maya",
+                "holds the bucket"
+              ],
+              [
+                "Ben",
+                "gathers freed plastic"
+              ]
+            ],
+            "options": [
+              "gathers freed plastic",
+              "holds the bucket"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "holds the bucket",
+              "gathers freed plastic"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Beyond a rocky point, Desmond slowed beside a quiet beach. Big Shell lay on wet sand close to the water. A loop of rope crossed the shell and trapped a front {{c0}}. A strip of {{c1}} had become twisted into the rope. The turtle lifted its head but could not crawl freely.",
+              "Jo asked the children to make room and bring the collection {{c2}}. Together, they helped loosen the debris without pulling on the flipper. Maya held the bucket, Ben gathered the freed plastic, and Noor and Theo helped Jo untangle the loose rope. They used {{c3}} movements and paused when Big Shell shifted. At last, the final loop slipped away. The children checked the sand for small pieces of litter."
+            ],
+            "parts": [
+              "Beyond a rocky point, Desmond slowed beside a quiet beach. Big Shell lay on wet sand close to the water. A loop of rope crossed the shell and trapped a front {{c0}}. A strip of {{c1}} had become twisted into the rope. The turtle lifted its head but could not crawl freely.\n\nJo asked the children to make room and bring ",
+              "the collection {{c2}}. Together, they helped loosen the debris without pulling on the flipper. Maya held the bucket, Ben gathered the freed plastic, and Noor and Theo helped Jo untangle the loose rope. They used {{c3}} movements and paused when Big Shell shifted. At last, the final loop slipped away. The children checked the sand for small pieces of litter."
+            ],
+            "columns": [
+              "Beyond a rocky point, Desmond slowed beside a quiet beach. Big Shell lay on wet sand close to the water. A loop of rope crossed the shell and trapped a front {{c0}}. A strip of {{c1}} had become twisted into the rope. The turtle lifted its head but could not crawl freely.\n\nJo asked the children to make room and bring ",
+              "the collection {{c2}}. Together, they helped loosen the debris without pulling on the flipper. Maya held the bucket, Ben gathered the freed plastic, and Noor and Theo helped Jo untangle the loose rope. They used {{c3}} movements and paused when Big Shell shifted. At last, the final loop slipped away. The children checked the sand for small pieces of litter."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "flipper",
+                "paragraph": 0,
+                "prompt": "Beyond a rocky point, Desmond slowed beside a quiet beach. Big Shell lay on wet sand close to the water. A loop of rope crossed the shell and trapped a front ______. A strip of plastic had become twisted into the rope. The turtle lifted its head but could not crawl freely."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "plastic",
+                "paragraph": 0,
+                "prompt": "Beyond a rocky point, Desmond slowed beside a quiet beach. Big Shell lay on wet sand close to the water. A loop of rope crossed the shell and trapped a front flipper. A strip of ______ had become twisted into the rope. The turtle lifted its head but could not crawl freely."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "bucket",
+                "paragraph": 1,
+                "prompt": "Jo asked the children to make room and bring the collection ______. Together, they helped loosen the debris without pulling on the flipper. Maya held the bucket, Ben gathered the freed plastic, and Noor and Theo helped Jo untangle the loose rope. They used gentle movements and paused when Big Shell shifted. At last, the final loop slipped away. The children checked the sand for small pieces of litter."
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "gentle",
+                "paragraph": 1,
+                "prompt": "Jo asked the children to make room and bring the collection bucket. Together, they helped loosen the debris without pulling on the flipper. Maya held the bucket, Ben gathered the freed plastic, and Noor and Theo helped Jo untangle the loose rope. They used ______ movements and paused when Big Shell shifted. At last, the final loop slipped away. The children checked the sand for small pieces of litter."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "flipper"
+              },
+              {
+                "id": "w3",
+                "word": "gentle"
+              },
+              {
+                "id": "w2",
+                "word": "bucket"
+              },
+              {
+                "id": "w1",
+                "word": "plastic"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Once the rope was gone, Big Shell moved both front flippers. The children stepped back and left a clear path to the sea. Big Shell crawled across the wet sand, reached a small wave, and began to swim. Desmond waited nearby, then glided alongside the turtle.",
+            "Jo secured the bucket so the litter could not blow away. “Debris can harm animals even when people leave it far from a reef,” she explained. The friends decided to help protect the ocean by taking their rubbish home and joining beach cleanups. Noor had hoped simply to see a favourite turtle. Instead, the journey had shown how listening, patience, and teamwork could turn concern into a rescue."
+          ],
+          "mc": [
+            {
+              "prompt": "Why does Jo secure the bucket?",
+              "choices": [
+                "To stop the litter from blowing away",
+                "To hide the turtle inside it",
+                "To give Desmond a toy"
+              ],
+              "answer": 0,
+              "skill": "Find a story detail",
+              "evidence": "Jo secured the bucket so the litter could not blow away"
+            },
+            {
+              "prompt": "Which is the best main idea for the whole story?",
+              "choices": [
+                "Sea animals always stay close to home",
+                "Listening and teamwork can help protect wildlife",
+                "A long journey is always a race"
+              ],
+              "answer": 1,
+              "skill": "Identify the main idea",
+              "evidence": "Listening, patience, and teamwork turn concern into a rescue"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Big Shell",
+                "swims freely again"
+              ],
+              [
+                "The friends",
+                "plan to help keep beaches clean"
+              ]
+            ],
+            "options": [
+              "plan to help keep beaches clean",
+              "swims freely again"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "swims freely again",
+              "plan to help keep beaches clean"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Once the rope was gone, Big Shell moved both front {{c0}}. The children stepped back and left a clear path to the sea. Big Shell crawled across the wet sand, reached a small {{c1}}, and began to swim. Desmond waited nearby, then glided alongside the turtle.",
+              "Jo secured the bucket so the litter could not blow away. “Debris can harm animals even when people leave it far from a reef,” she explained. The friends decided to help {{c2}} the ocean by taking their rubbish home and joining beach cleanups. Noor had hoped simply to see a favourite turtle. Instead, the journey had shown how listening, patience, and teamwork could turn concern into a {{c3}}."
+            ],
+            "parts": [
+              "Once the rope was gone, Big Shell moved both front {{c0}}. The children stepped back and left a clear path to the sea. Big Shell crawled across the wet sand, reached a small {{c1}}, and began to swim. Desmond waited nearby, then glided alongside the turtle.\n\nJo secured the bucket so the litter could not blow away. ",
+              "“Debris can harm animals even when people leave it far from a reef,” she explained. The friends decided to help {{c2}} the ocean by taking their rubbish home and joining beach cleanups. Noor had hoped simply to see a favourite turtle. Instead, the journey had shown how listening, patience, and teamwork could turn concern into a {{c3}}."
+            ],
+            "columns": [
+              "Once the rope was gone, Big Shell moved both front {{c0}}. The children stepped back and left a clear path to the sea. Big Shell crawled across the wet sand, reached a small {{c1}}, and began to swim. Desmond waited nearby, then glided alongside the turtle.\n\nJo secured the bucket so the litter could not blow away. ",
+              "“Debris can harm animals even when people leave it far from a reef,” she explained. The friends decided to help {{c2}} the ocean by taking their rubbish home and joining beach cleanups. Noor had hoped simply to see a favourite turtle. Instead, the journey had shown how listening, patience, and teamwork could turn concern into a {{c3}}."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "flippers",
+                "paragraph": 0,
+                "prompt": "Once the rope was gone, Big Shell moved both front ______. The children stepped back and left a clear path to the sea. Big Shell crawled across the wet sand, reached a small wave, and began to swim. Desmond waited nearby, then glided alongside the turtle."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "wave",
+                "paragraph": 0,
+                "prompt": "Once the rope was gone, Big Shell moved both front flippers. The children stepped back and left a clear path to the sea. Big Shell crawled across the wet sand, reached a small ______, and began to swim. Desmond waited nearby, then glided alongside the turtle."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "protect",
+                "paragraph": 1,
+                "prompt": "Jo secured the bucket so the litter could not blow away. “Debris can harm animals even when people leave it far from a reef,” she explained. The friends decided to help ______ the ocean by taking their rubbish home and joining beach cleanups. Noor had hoped simply to see a favourite turtle. Instead, the journey had shown how listening, patience, and teamwork could turn concern into a rescue."
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "rescue",
+                "paragraph": 1,
+                "prompt": "Jo secured the bucket so the litter could not blow away. “Debris can harm animals even when people leave it far from a reef,” she explained. The friends decided to help protect the ocean by taking their rubbish home and joining beach cleanups. Noor had hoped simply to see a favourite turtle. Instead, the journey had shown how listening, patience, and teamwork could turn concern into a ______."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "flippers"
+              },
+              {
+                "id": "w3",
+                "word": "rescue"
+              },
+              {
+                "id": "w2",
+                "word": "protect"
+              },
+              {
+                "id": "w1",
+                "word": "wave"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "AAA": {
+      "grade": "Grades 5–6",
+      "titles": [
+        "Where is Big Shell?",
+        "A message from Desmond",
+        "The faraway beach",
+        "Back to the sea"
+      ],
+      "intro": "4 story chapters · 6 word blanks per chapter · a turtle notebook to finish.",
+      "defaultRate": 0.85,
+      "sections": [
+        {
+          "text": [
+            "The ocean looked like folded blue silk when Noor, Maya, Theo, and Ben arrived at the dive boat. Their guide, Jo, checked each mask, pair of fins, and air tank before they entered the water together. Jo’s familiar signals helped the group stay close while they explored. Below them, sunlight slid over coral, and a gentle current stirred the seagrass.",
+            "The children had come to watch Big Shell, their favourite sea turtle. They recognised the turtle’s broad, patterned shell from earlier visits to the reef. Jo had once pointed out how the shell protected the body, how the flippers helped the turtle swim, and how a small tail trailed behind. Big Shell usually grazed in a quiet patch of seagrass, but today that patch was empty.",
+            "Noor searched between the rocks while Maya watched the edge of the coral. A flash of silver turned out to be a fish. The friends kept their distance from the reef and resisted the urge to scatter. When Jo signalled that it was time to return to the surface, the children followed. They had seen a thriving underwater habitat, but the creature they had most hoped to see was missing."
+          ],
+          "mc": [
+            {
+              "prompt": "Why do the children expect to find Big Shell near the reef?",
+              "choices": [
+                "They recognise a place where the turtle usually feeds",
+                "Desmond has already brought the turtle there",
+                "Every turtle lives in the same patch of coral"
+              ],
+              "answer": 0,
+              "skill": "Use evidence from the text",
+              "evidence": "Big Shell usually grazed in a quiet patch of seagrass"
+            },
+            {
+              "prompt": "Which detail best supports this chapter’s main idea?",
+              "choices": [
+                "The ocean looks like folded blue silk",
+                "The familiar feeding patch is empty despite a careful search",
+                "The boat has a place to store equipment"
+              ],
+              "answer": 1,
+              "skill": "Identify the main idea and supporting detail",
+              "evidence": "The creature they had most hoped to see was missing"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "The shell",
+                "protects the turtle’s body"
+              ],
+              [
+                "The flippers",
+                "help the turtle swim"
+              ],
+              [
+                "The seagrass",
+                "is a familiar feeding place"
+              ]
+            ],
+            "options": [
+              "is a familiar feeding place",
+              "protects the turtle’s body",
+              "help the turtle swim"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "protects the turtle’s body",
+              "help the turtle swim",
+              "is a familiar feeding place"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "The {{c0}} looked like folded blue silk when Noor, Maya, Theo, and Ben arrived at the dive boat. Their guide, Jo, checked each mask, pair of fins, and air {{c1}} before they entered the water together. Jo’s familiar signals helped the group stay close while they explored. Below them, sunlight slid over coral, and a gentle {{c2}} stirred the seagrass.",
+              "The children had come to watch Big Shell, their favourite sea turtle. They recognised the turtle’s broad, patterned {{c3}} from earlier visits to the reef. Jo had once pointed out how the shell protected the body, how the flippers helped the turtle swim, and how a small {{c4}} trailed behind. Big Shell usually grazed in a quiet patch of seagrass, but today that patch was empty.",
+              "Noor searched between the rocks while Maya watched the edge of the coral. A flash of silver turned out to be a fish. The friends kept their distance from the reef and resisted the urge to scatter. When Jo signalled that it was time to return to the surface, the children followed. They had seen a thriving underwater {{c5}}, but the creature they had most hoped to see was missing."
+            ],
+            "parts": [
+              "The {{c0}} looked like folded blue silk when Noor, Maya, Theo, and Ben arrived at the dive boat. Their guide, Jo, checked each mask, pair of fins, and air {{c1}} before they entered the water together. Jo’s familiar signals helped the group stay close while they explored. Below them, sunlight slid over coral, and a gentle {{c2}} stirred the seagrass.\n\nThe children had come to watch Big Shell, their favourite sea turtle. They recognised the turtle’s broad, patterned {{c3}} from earlier visits to the reef. Jo had once pointed out how the shell protected the body, how the ",
+              "flippers helped the turtle swim, and how a small {{c4}} trailed behind. Big Shell usually grazed in a quiet patch of seagrass, but today that patch was empty.\n\nNoor searched between the rocks while Maya watched the edge of the coral. A flash of silver turned out to be a fish. The friends kept their distance from the reef and resisted the urge to scatter. When Jo signalled that it was time to return to the surface, the children followed. They had seen a thriving underwater {{c5}}, but the creature they had most hoped to see was missing."
+            ],
+            "columns": [
+              "The {{c0}} looked like folded blue silk when Noor, Maya, Theo, and Ben arrived at the dive boat. Their guide, Jo, checked each mask, pair of fins, and air {{c1}} before they entered the water together. Jo’s familiar signals helped the group stay close while they explored. Below them, sunlight slid over coral, and a gentle {{c2}} stirred the seagrass.\n\nThe children had come to watch Big Shell, their favourite sea turtle. They recognised the turtle’s broad, patterned {{c3}} from earlier visits to the reef. Jo had once pointed out how the shell protected the body, how the ",
+              "flippers helped the turtle swim, and how a small {{c4}} trailed behind. Big Shell usually grazed in a quiet patch of seagrass, but today that patch was empty.\n\nNoor searched between the rocks while Maya watched the edge of the coral. A flash of silver turned out to be a fish. The friends kept their distance from the reef and resisted the urge to scatter. When Jo signalled that it was time to return to the surface, the children followed. They had seen a thriving underwater {{c5}}, but the creature they had most hoped to see was missing."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "ocean",
+                "paragraph": 0,
+                "prompt": "The ______ looked like folded blue silk when Noor, Maya, Theo, and Ben arrived at the dive boat. Their guide, Jo, checked each mask, pair of fins, and air tank before they entered the water together. Jo’s familiar signals helped the group stay close while they explored. Below them, sunlight slid over coral, and a gentle current stirred the seagrass."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "tank",
+                "paragraph": 0,
+                "prompt": "The ocean looked like folded blue silk when Noor, Maya, Theo, and Ben arrived at the dive boat. Their guide, Jo, checked each mask, pair of fins, and air ______ before they entered the water together. Jo’s familiar signals helped the group stay close while they explored. Below them, sunlight slid over coral, and a gentle current stirred the seagrass."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "current",
+                "paragraph": 0,
+                "prompt": "The ocean looked like folded blue silk when Noor, Maya, Theo, and Ben arrived at the dive boat. Their guide, Jo, checked each mask, pair of fins, and air tank before they entered the water together. Jo’s familiar signals helped the group stay close while they explored. Below them, sunlight slid over coral, and a gentle ______ stirred the seagrass."
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "shell",
+                "paragraph": 1,
+                "prompt": "The children had come to watch Big Shell, their favourite sea turtle. They recognised the turtle’s broad, patterned ______ from earlier visits to the reef. Jo had once pointed out how the shell protected the body, how the flippers helped the turtle swim, and how a small tail trailed behind. Big Shell usually grazed in a quiet patch of seagrass, but today that patch was empty."
+              },
+              {
+                "id": "c4",
+                "token": "w4",
+                "word": "tail",
+                "paragraph": 1,
+                "prompt": "The children had come to watch Big Shell, their favourite sea turtle. They recognised the turtle’s broad, patterned shell from earlier visits to the reef. Jo had once pointed out how the shell protected the body, how the flippers helped the turtle swim, and how a small ______ trailed behind. Big Shell usually grazed in a quiet patch of seagrass, but today that patch was empty."
+              },
+              {
+                "id": "c5",
+                "token": "w5",
+                "word": "habitat",
+                "paragraph": 2,
+                "prompt": "Noor searched between the rocks while Maya watched the edge of the coral. A flash of silver turned out to be a fish. The friends kept their distance from the reef and resisted the urge to scatter. When Jo signalled that it was time to return to the surface, the children followed. They had seen a thriving underwater ______, but the creature they had most hoped to see was missing."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "ocean"
+              },
+              {
+                "id": "w5",
+                "word": "habitat"
+              },
+              {
+                "id": "w4",
+                "word": "tail"
+              },
+              {
+                "id": "w3",
+                "word": "shell"
+              },
+              {
+                "id": "w2",
+                "word": "current"
+              },
+              {
+                "id": "w1",
+                "word": "tank"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Back beside the boat, Ben noticed a grey shape rising through the water. A dolphin surfaced with a quick breath and turned a bright eye toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become entangled in debris: discarded rope twisted together with plastic.",
+            "Jo asked Desmond where he had last seen the turtle and whether the beach could be reached from the water. His answers gave their search a clear purpose. Instead of guessing which part of the reef to check next, they could head toward a known location. Desmond offered to lead the way, and Jo steered the boat along the coast.",
+            "The dolphin stayed near the surface, appearing often enough for everyone to follow his curved fin. The familiar bay slipped behind them. Noor watched the shore change from low sand to steep rock, then back again. She was worried about Big Shell, but Desmond’s message had replaced uncertainty with a plan. Helping would take them farther than their original dive."
+          ],
+          "mc": [
+            {
+              "prompt": "What is the most important effect of Desmond’s message?",
+              "choices": [
+                "It gives the children a location and a reason to act",
+                "It proves that all turtles dislike reefs",
+                "It makes the boat travel without Jo"
+              ],
+              "answer": 0,
+              "skill": "Connect cause and effect",
+              "evidence": "His answers gave their search a clear purpose"
+            },
+            {
+              "prompt": "Why does Jo ask questions before following Desmond?",
+              "choices": [
+                "To find out whether his information can guide their next steps",
+                "To make the dolphin stop swimming",
+                "To delay the search until evening"
+              ],
+              "answer": 0,
+              "skill": "Infer a character’s purpose",
+              "evidence": "Jo asked where he last saw the turtle and whether the beach could be reached"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Desmond",
+                "provides a location"
+              ],
+              [
+                "Jo",
+                "checks the information"
+              ],
+              [
+                "Noor",
+                "feels worried but has a plan"
+              ]
+            ],
+            "options": [
+              "checks the information",
+              "feels worried but has a plan",
+              "provides a location"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "provides a location",
+              "checks the information",
+              "feels worried but has a plan"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Back beside the boat, Ben noticed a grey shape rising through the water. A {{c0}} surfaced with a quick breath and turned a bright {{c1}} toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become {{c2}} in {{c3}}: discarded rope twisted together with plastic.",
+              "Jo asked Desmond where he had last seen the turtle and whether the beach could be reached from the water. His answers gave their search a clear purpose. Instead of guessing which part of the reef to check next, they could head toward a known location. Desmond offered to lead the way, and Jo steered the boat along the {{c4}}.",
+              "The dolphin stayed near the {{c5}}, appearing often enough for everyone to follow his curved fin. The familiar bay slipped behind them. Noor watched the shore change from low sand to steep rock, then back again. She was worried about Big Shell, but Desmond’s message had replaced uncertainty with a plan. Helping would take them farther than their original dive."
+            ],
+            "parts": [
+              "Back beside the boat, Ben noticed a grey shape rising through the water. A {{c0}} surfaced with a quick breath and turned a bright {{c1}} toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become {{c2}} in {{c3}}: discarded rope twisted together with plastic.\n\nJo asked Desmond where he had last seen the turtle and whether the beach could be reached from the water. His answers gave their ",
+              "search a clear purpose. Instead of guessing which part of the reef to check next, they could head toward a known location. Desmond offered to lead the way, and Jo steered the boat along the {{c4}}.\n\nThe dolphin stayed near the {{c5}}, appearing often enough for everyone to follow his curved fin. The familiar bay slipped behind them. Noor watched the shore change from low sand to steep rock, then back again. She was worried about Big Shell, but Desmond’s message had replaced uncertainty with a plan. Helping would take them farther than their original dive."
+            ],
+            "columns": [
+              "Back beside the boat, Ben noticed a grey shape rising through the water. A {{c0}} surfaced with a quick breath and turned a bright {{c1}} toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become {{c2}} in {{c3}}: discarded rope twisted together with plastic.\n\nJo asked Desmond where he had last seen the turtle and whether the beach could be reached from the water. His answers gave their ",
+              "search a clear purpose. Instead of guessing which part of the reef to check next, they could head toward a known location. Desmond offered to lead the way, and Jo steered the boat along the {{c4}}.\n\nThe dolphin stayed near the {{c5}}, appearing often enough for everyone to follow his curved fin. The familiar bay slipped behind them. Noor watched the shore change from low sand to steep rock, then back again. She was worried about Big Shell, but Desmond’s message had replaced uncertainty with a plan. Helping would take them farther than their original dive."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "dolphin",
+                "paragraph": 0,
+                "prompt": "Back beside the boat, Ben noticed a grey shape rising through the water. A ______ surfaced with a quick breath and turned a bright eye toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become entangled in debris: discarded rope twisted together with plastic."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "eye",
+                "paragraph": 0,
+                "prompt": "Back beside the boat, Ben noticed a grey shape rising through the water. A dolphin surfaced with a quick breath and turned a bright ______ toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become entangled in debris: discarded rope twisted together with plastic."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "entangled",
+                "paragraph": 0,
+                "prompt": "Back beside the boat, Ben noticed a grey shape rising through the water. A dolphin surfaced with a quick breath and turned a bright eye toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become ______ in debris: discarded rope twisted together with plastic."
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "debris",
+                "paragraph": 0,
+                "prompt": "Back beside the boat, Ben noticed a grey shape rising through the water. A dolphin surfaced with a quick breath and turned a bright eye toward them. “I’m Desmond,” he said. “You are looking for Big Shell, aren’t you?” The children fell silent. Desmond explained that he had seen the turtle on a distant beach beyond a rocky headland. Big Shell had become entangled in ______: discarded rope twisted together with plastic."
+              },
+              {
+                "id": "c4",
+                "token": "w4",
+                "word": "coast",
+                "paragraph": 1,
+                "prompt": "Jo asked Desmond where he had last seen the turtle and whether the beach could be reached from the water. His answers gave their search a clear purpose. Instead of guessing which part of the reef to check next, they could head toward a known location. Desmond offered to lead the way, and Jo steered the boat along the ______."
+              },
+              {
+                "id": "c5",
+                "token": "w5",
+                "word": "surface",
+                "paragraph": 2,
+                "prompt": "The dolphin stayed near the ______, appearing often enough for everyone to follow his curved fin. The familiar bay slipped behind them. Noor watched the shore change from low sand to steep rock, then back again. She was worried about Big Shell, but Desmond’s message had replaced uncertainty with a plan. Helping would take them farther than their original dive."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "dolphin"
+              },
+              {
+                "id": "w5",
+                "word": "surface"
+              },
+              {
+                "id": "w4",
+                "word": "coast"
+              },
+              {
+                "id": "w3",
+                "word": "debris"
+              },
+              {
+                "id": "w2",
+                "word": "entangled"
+              },
+              {
+                "id": "w1",
+                "word": "eye"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "At last, Desmond slowed beside a beach tucked beyond the headland. Big Shell lay where wet sand met the shallow water. A rope loop crossed the broad shell and restricted a front flipper; plastic strips had twisted into the knot. The turtle’s head lifted as the group approached. Noor could see a small nostril above the closed mouth, and rough scales along the flipper. The animal was alert, but each attempt to move tightened the debris.",
+            "Jo asked everyone to leave space around Big Shell. The children helped bring a bucket and gathered loose litter before it could wash away. With Jo beside them, they worked patiently to untangle the rope, easing loose loops rather than pulling on the turtle. Maya held the bucket steady, Ben collected freed plastic, and Noor and Theo helped Jo keep the slack rope away from the flipper.",
+            "The task demanded attention rather than speed. They paused when Big Shell shifted and used gentle movements as the final loop came free. Jo checked that no pieces remained around the turtle. The children then searched the nearby sand for scraps. Simply freeing one flipper would not be enough if the same litter drifted back into the water."
+          ],
+          "mc": [
+            {
+              "prompt": "Why do the children search the sand after freeing Big Shell?",
+              "choices": [
+                "To stop leftover debris from returning to the water",
+                "To find a larger rope for the turtle",
+                "To hide the bucket from Desmond"
+              ],
+              "answer": 0,
+              "skill": "Connect details and consequences",
+              "evidence": "The same litter could drift back into the water"
+            },
+            {
+              "prompt": "Which statement best explains the chapter’s main idea?",
+              "choices": [
+                "A successful rescue depends on patient teamwork and removing the hazard",
+                "Speed matters more than care during a rescue",
+                "The children should leave debris where they find it"
+              ],
+              "answer": 0,
+              "skill": "Identify the main idea",
+              "evidence": "The task demanded attention rather than speed"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Maya",
+                "keeps the bucket steady"
+              ],
+              [
+                "Ben",
+                "collects freed plastic"
+              ],
+              [
+                "Noor and Theo",
+                "help Jo manage the loose rope"
+              ]
+            ],
+            "options": [
+              "help Jo manage the loose rope",
+              "keeps the bucket steady",
+              "collects freed plastic"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "keeps the bucket steady",
+              "collects freed plastic",
+              "help Jo manage the loose rope"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "At last, Desmond slowed beside a beach tucked beyond the headland. Big Shell lay where wet sand met the shallow water. A rope loop crossed the broad shell and restricted a front {{c0}}; plastic strips had twisted into the knot. The turtle’s head lifted as the group approached. Noor could see a small {{c1}} above the closed mouth, and rough {{c2}} along the flipper. The animal was alert, but each attempt to move tightened the debris.",
+              "Jo asked everyone to leave space around Big Shell. The children helped bring a {{c3}} and gathered loose litter before it could wash away. With Jo beside them, they worked patiently to {{c4}} the rope, easing loose loops rather than pulling on the turtle. Maya held the bucket steady, Ben collected freed plastic, and Noor and Theo helped Jo keep the slack rope away from the flipper.",
+              "The task demanded attention rather than speed. They paused when Big Shell shifted and used {{c5}} movements as the final loop came free. Jo checked that no pieces remained around the turtle. The children then searched the nearby sand for scraps. Simply freeing one flipper would not be enough if the same litter drifted back into the water."
+            ],
+            "parts": [
+              "At last, Desmond slowed beside a beach tucked beyond the headland. Big Shell lay where wet sand met the shallow water. A rope loop crossed the broad shell and restricted a front {{c0}}; plastic strips had twisted into the knot. The turtle’s head lifted as the group approached. Noor could see a small {{c1}} above the closed mouth, and rough {{c2}} along the flipper. The animal was alert, but each attempt to move tightened the debris.\n\nJo asked everyone to leave space around Big Shell. The children helped bring a {{c3}} and gathered loose litter before it could wash away. With ",
+              "Jo beside them, they worked patiently to {{c4}} the rope, easing loose loops rather than pulling on the turtle. Maya held the bucket steady, Ben collected freed plastic, and Noor and Theo helped Jo keep the slack rope away from the flipper.\n\nThe task demanded attention rather than speed. They paused when Big Shell shifted and used {{c5}} movements as the final loop came free. Jo checked that no pieces remained around the turtle. The children then searched the nearby sand for scraps. Simply freeing one flipper would not be enough if the same litter drifted back into the water."
+            ],
+            "columns": [
+              "At last, Desmond slowed beside a beach tucked beyond the headland. Big Shell lay where wet sand met the shallow water. A rope loop crossed the broad shell and restricted a front {{c0}}; plastic strips had twisted into the knot. The turtle’s head lifted as the group approached. Noor could see a small {{c1}} above the closed mouth, and rough {{c2}} along the flipper. The animal was alert, but each attempt to move tightened the debris.\n\nJo asked everyone to leave space around Big Shell. The children helped bring a {{c3}} and gathered loose litter before it could wash away. With ",
+              "Jo beside them, they worked patiently to {{c4}} the rope, easing loose loops rather than pulling on the turtle. Maya held the bucket steady, Ben collected freed plastic, and Noor and Theo helped Jo keep the slack rope away from the flipper.\n\nThe task demanded attention rather than speed. They paused when Big Shell shifted and used {{c5}} movements as the final loop came free. Jo checked that no pieces remained around the turtle. The children then searched the nearby sand for scraps. Simply freeing one flipper would not be enough if the same litter drifted back into the water."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "flipper",
+                "paragraph": 0,
+                "prompt": "At last, Desmond slowed beside a beach tucked beyond the headland. Big Shell lay where wet sand met the shallow water. A rope loop crossed the broad shell and restricted a front ______; plastic strips had twisted into the knot. The turtle’s head lifted as the group approached. Noor could see a small nostril above the closed mouth, and rough scales along the flipper. The animal was alert, but each attempt to move tightened the debris."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "nostril",
+                "paragraph": 0,
+                "prompt": "At last, Desmond slowed beside a beach tucked beyond the headland. Big Shell lay where wet sand met the shallow water. A rope loop crossed the broad shell and restricted a front flipper; plastic strips had twisted into the knot. The turtle’s head lifted as the group approached. Noor could see a small ______ above the closed mouth, and rough scales along the flipper. The animal was alert, but each attempt to move tightened the debris."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "scales",
+                "paragraph": 0,
+                "prompt": "At last, Desmond slowed beside a beach tucked beyond the headland. Big Shell lay where wet sand met the shallow water. A rope loop crossed the broad shell and restricted a front flipper; plastic strips had twisted into the knot. The turtle’s head lifted as the group approached. Noor could see a small nostril above the closed mouth, and rough ______ along the flipper. The animal was alert, but each attempt to move tightened the debris."
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "bucket",
+                "paragraph": 1,
+                "prompt": "Jo asked everyone to leave space around Big Shell. The children helped bring a ______ and gathered loose litter before it could wash away. With Jo beside them, they worked patiently to untangle the rope, easing loose loops rather than pulling on the turtle. Maya held the bucket steady, Ben collected freed plastic, and Noor and Theo helped Jo keep the slack rope away from the flipper."
+              },
+              {
+                "id": "c4",
+                "token": "w4",
+                "word": "untangle",
+                "paragraph": 1,
+                "prompt": "Jo asked everyone to leave space around Big Shell. The children helped bring a bucket and gathered loose litter before it could wash away. With Jo beside them, they worked patiently to ______ the rope, easing loose loops rather than pulling on the turtle. Maya held the bucket steady, Ben collected freed plastic, and Noor and Theo helped Jo keep the slack rope away from the flipper."
+              },
+              {
+                "id": "c5",
+                "token": "w5",
+                "word": "gentle",
+                "paragraph": 2,
+                "prompt": "The task demanded attention rather than speed. They paused when Big Shell shifted and used ______ movements as the final loop came free. Jo checked that no pieces remained around the turtle. The children then searched the nearby sand for scraps. Simply freeing one flipper would not be enough if the same litter drifted back into the water."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "flipper"
+              },
+              {
+                "id": "w5",
+                "word": "gentle"
+              },
+              {
+                "id": "w4",
+                "word": "untangle"
+              },
+              {
+                "id": "w3",
+                "word": "bucket"
+              },
+              {
+                "id": "w2",
+                "word": "scales"
+              },
+              {
+                "id": "w1",
+                "word": "nostril"
+              }
+            ]
+          }
+        },
+        {
+          "text": [
+            "Big Shell tested a flipper, shifted across the damp sand, and faced the open sea. Jo and the children stepped back, leaving a clear route to the water. A small wave lifted the turtle, and a moment later Big Shell was swimming. Desmond glided nearby without blocking the way. The children watched until the broad shell became a dark shape beneath the surface. Big Shell had been released from the debris and could move freely again.",
+            "On the boat, Jo secured the collected rubbish. She explained that pollution could harm an ocean animal far from the place where litter first entered the water. Currents could carry rope and plastic along the coast; a beach and a reef were connected parts of the same habitat. The children decided to reduce loose plastic, take their rubbish home, and join a supervised beach cleanup.",
+            "Noor had begun the day wanting a familiar sight: Big Shell grazing in the seagrass. The journey had asked more of everyone. Desmond had shared what he knew, Jo had guided their decisions, and each child had helped with the rescue. Finding Big Shell mattered, but listening carefully and working together had made a difference. Their favourite turtle was back in the sea, and the friends understood more about how to protect that home."
+          ],
+          "mc": [
+            {
+              "prompt": "What does Jo mean when she says the beach and reef are connected?",
+              "choices": [
+                "Currents can carry pollution between them",
+                "Every beach is made of coral",
+                "Turtles can live without water"
+              ],
+              "answer": 0,
+              "skill": "Explain a relationship in the text",
+              "evidence": "Currents could carry rope and plastic along the coast"
+            },
+            {
+              "prompt": "Which statement expresses the main idea of the whole story?",
+              "choices": [
+                "Shared information and careful teamwork can help protect marine life",
+                "Finding a favourite animal matters more than its habitat",
+                "Wild animals need people to choose where they swim"
+              ],
+              "answer": 0,
+              "skill": "Identify the main idea",
+              "evidence": "Desmond shared information; Jo guided decisions; each child helped"
+            }
+          ],
+          "match": {
+            "rows": [
+              [
+                "Desmond",
+                "shares useful knowledge"
+              ],
+              [
+                "The children",
+                "help with the rescue"
+              ],
+              [
+                "The cleanup plan",
+                "helps protect the ocean habitat"
+              ]
+            ],
+            "options": [
+              "helps protect the ocean habitat",
+              "shares useful knowledge",
+              "help with the rescue"
+            ],
+            "skill": "Connect story details",
+            "evidence": [
+              "shares useful knowledge",
+              "help with the rescue",
+              "helps protect the ocean habitat"
+            ]
+          },
+          "cloze": {
+            "paragraphs": [
+              "Big Shell tested a flipper, shifted across the damp sand, and faced the open sea. Jo and the children stepped back, leaving a clear route to the water. A small {{c0}} lifted the turtle, and a moment later Big Shell was swimming. Desmond glided nearby without blocking the way. The children watched until the broad shell became a dark shape beneath the surface. Big Shell had been {{c1}} from the debris and could move freely again.",
+              "On the boat, Jo secured the collected rubbish. She explained that {{c2}} could harm an ocean animal far from the place where litter first entered the water. Currents could carry rope and plastic along the coast; a beach and a reef were connected parts of the same {{c3}}. The children decided to reduce loose plastic, take their rubbish home, and join a supervised beach cleanup.",
+              "Noor had begun the day wanting a familiar sight: Big Shell grazing in the seagrass. The journey had asked more of everyone. Desmond had shared what he knew, Jo had guided their decisions, and each child had helped with the {{c4}}. Finding Big Shell mattered, but listening carefully and working together had made a difference. Their favourite turtle was back in the sea, and the friends understood more about how to {{c5}} that home."
+            ],
+            "parts": [
+              "Big Shell tested a flipper, shifted across the damp sand, and faced the open sea. Jo and the children stepped back, leaving a clear route to the water. A small {{c0}} lifted the turtle, and a moment later Big Shell was swimming. Desmond glided nearby without blocking the way. The children watched until the broad shell became a dark shape beneath the surface. Big Shell had been {{c1}} from the debris and could move freely again.\n\nOn the boat, Jo secured the collected rubbish. She explained that {{c2}} could harm an ocean animal far from the place where litter first entered the water. Currents could carry rope and ",
+              "plastic along the coast; a beach and a reef were connected parts of the same {{c3}}. The children decided to reduce loose plastic, take their rubbish home, and join a supervised beach cleanup.\n\nNoor had begun the day wanting a familiar sight: Big Shell grazing in the seagrass. The journey had asked more of everyone. Desmond had shared what he knew, Jo had guided their decisions, and each child had helped with the {{c4}}. Finding Big Shell mattered, but listening carefully and working together had made a difference. Their favourite turtle was back in the sea, and the friends understood more about how to {{c5}} that home."
+            ],
+            "columns": [
+              "Big Shell tested a flipper, shifted across the damp sand, and faced the open sea. Jo and the children stepped back, leaving a clear route to the water. A small {{c0}} lifted the turtle, and a moment later Big Shell was swimming. Desmond glided nearby without blocking the way. The children watched until the broad shell became a dark shape beneath the surface. Big Shell had been {{c1}} from the debris and could move freely again.\n\nOn the boat, Jo secured the collected rubbish. She explained that {{c2}} could harm an ocean animal far from the place where litter first entered the water. Currents could carry rope and ",
+              "plastic along the coast; a beach and a reef were connected parts of the same {{c3}}. The children decided to reduce loose plastic, take their rubbish home, and join a supervised beach cleanup.\n\nNoor had begun the day wanting a familiar sight: Big Shell grazing in the seagrass. The journey had asked more of everyone. Desmond had shared what he knew, Jo had guided their decisions, and each child had helped with the {{c4}}. Finding Big Shell mattered, but listening carefully and working together had made a difference. Their favourite turtle was back in the sea, and the friends understood more about how to {{c5}} that home."
+            ],
+            "blanks": [
+              {
+                "id": "c0",
+                "token": "w0",
+                "word": "wave",
+                "paragraph": 0,
+                "prompt": "Big Shell tested a flipper, shifted across the damp sand, and faced the open sea. Jo and the children stepped back, leaving a clear route to the water. A small ______ lifted the turtle, and a moment later Big Shell was swimming. Desmond glided nearby without blocking the way. The children watched until the broad shell became a dark shape beneath the surface. Big Shell had been released from the debris and could move freely again."
+              },
+              {
+                "id": "c1",
+                "token": "w1",
+                "word": "released",
+                "paragraph": 0,
+                "prompt": "Big Shell tested a flipper, shifted across the damp sand, and faced the open sea. Jo and the children stepped back, leaving a clear route to the water. A small wave lifted the turtle, and a moment later Big Shell was swimming. Desmond glided nearby without blocking the way. The children watched until the broad shell became a dark shape beneath the surface. Big Shell had been ______ from the debris and could move freely again."
+              },
+              {
+                "id": "c2",
+                "token": "w2",
+                "word": "pollution",
+                "paragraph": 1,
+                "prompt": "On the boat, Jo secured the collected rubbish. She explained that ______ could harm an ocean animal far from the place where litter first entered the water. Currents could carry rope and plastic along the coast; a beach and a reef were connected parts of the same habitat. The children decided to reduce loose plastic, take their rubbish home, and join a supervised beach cleanup."
+              },
+              {
+                "id": "c3",
+                "token": "w3",
+                "word": "habitat",
+                "paragraph": 1,
+                "prompt": "On the boat, Jo secured the collected rubbish. She explained that pollution could harm an ocean animal far from the place where litter first entered the water. Currents could carry rope and plastic along the coast; a beach and a reef were connected parts of the same ______. The children decided to reduce loose plastic, take their rubbish home, and join a supervised beach cleanup."
+              },
+              {
+                "id": "c4",
+                "token": "w4",
+                "word": "rescue",
+                "paragraph": 2,
+                "prompt": "Noor had begun the day wanting a familiar sight: Big Shell grazing in the seagrass. The journey had asked more of everyone. Desmond had shared what he knew, Jo had guided their decisions, and each child had helped with the ______. Finding Big Shell mattered, but listening carefully and working together had made a difference. Their favourite turtle was back in the sea, and the friends understood more about how to protect that home."
+              },
+              {
+                "id": "c5",
+                "token": "w5",
+                "word": "protect",
+                "paragraph": 2,
+                "prompt": "Noor had begun the day wanting a familiar sight: Big Shell grazing in the seagrass. The journey had asked more of everyone. Desmond had shared what he knew, Jo had guided their decisions, and each child had helped with the rescue. Finding Big Shell mattered, but listening carefully and working together had made a difference. Their favourite turtle was back in the sea, and the friends understood more about how to ______ that home."
+              }
+            ],
+            "bank": [
+              {
+                "id": "w0",
+                "word": "wave"
+              },
+              {
+                "id": "w5",
+                "word": "protect"
+              },
+              {
+                "id": "w4",
+                "word": "rescue"
+              },
+              {
+                "id": "w3",
+                "word": "habitat"
+              },
+              {
+                "id": "w2",
+                "word": "pollution"
+              },
+              {
+                "id": "w1",
+                "word": "released"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

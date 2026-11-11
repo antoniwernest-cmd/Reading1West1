@@ -1,0 +1,247 @@
+/* One-screen layouts for Chromebook windows and tablets in either orientation. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#app{width:100%!important;max-width:none!important;margin:0!important}
+button,select{touch-action:manipulation}
+.camp-shell{padding:10px;gap:8px}
+#app>.camp-shell{width:100%;max-width:none;margin:0}
+#app>.camp-landing,#app>.completion{width:calc(100% - 24px);max-width:none}
+@media(max-width:800px){#app>.camp-landing{width:calc(100% - 16px)}}
+.camp-shell .workspace{gap:10px;grid-template-columns:minmax(0,1fr)}
+.camp-shell .workspace[data-view=questions] .assessment{margin:0;width:100%;max-width:none;grid-column:auto;grid-row:auto;justify-self:stretch;align-self:stretch;padding:16px 20px 14px 43px;gap:10px}
+.camp-shell .workspace[data-view=questions] .question-reference{margin:0;padding:18px;gap:10px}
+.camp-shell .assessment:before{left:12px;top:16px;bottom:16px}
+.camp-shell .assessment:after{left:31px}
+.camp-shell .assessment-head{flex-wrap:nowrap;min-width:0}
+.camp-shell .assessment-head h2{font-size:24px;margin:0;min-width:0}
+.camp-shell .assessment-head h2:before{font-size:27px;margin-right:5px}
+.camp-shell .reference-open{white-space:nowrap;min-height:44px}
+.camp-shell .assessment-head .marks{white-space:nowrap}
+.camp-shell .reading-question-tabs button,.camp-shell .reading-match-switch button{min-height:44px;font-size:14px;padding:8px 6px}
+.camp-shell .view-tabs{min-height:46px;padding:3px}
+.camp-shell .view-tabs button,.camp-shell .view-tabs .teacher-voice-entry{min-height:44px}
+.camp-shell .reading-question{justify-content:flex-start;padding-top:clamp(8px,2vh,20px);gap:16px;min-width:0}
+.camp-shell .reading-question h3{font-size:clamp(21px,1.8vw,27px);line-height:1.28;margin:0;padding:0}
+.camp-shell .reading-pad{min-height:64px;min-width:0;padding:12px;font-size:22px;overflow-wrap:anywhere}
+.camp-shell .reading-choice{min-height:64px;min-width:0;font-size:19px;padding:10px 8px;line-height:1.25;overflow-wrap:anywhere}
+.camp-shell .reading-bank{gap:10px}
+.camp-shell .reading-match-row{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:10px;font-size:18px;line-height:1.25}
+.camp-shell .reading-match-row>span{min-width:0;padding:8px}
+.camp-shell .reading-match-row .reading-pad{min-height:52px;font-size:18px;padding:8px}
+.camp-shell .reading-match .reading-choice{min-height:56px;font-size:17px}
+.camp-shell .reading-match-help{display:block;font-size:12px;line-height:1.3;margin:0}
+.camp-shell .assess-foot{margin:0;flex-wrap:wrap;gap:7px 12px}
+.camp-shell .assess-foot #answerStatus{flex:1 1 180px;font-size:12px;line-height:1.3}
+.camp-shell .assess-foot .primary{flex:0 0 auto;min-height:46px;max-width:100%;padding:10px 14px;font-size:14px}
+.camp-shell .reference-reading{font-size:20px;line-height:1.42;--reference-gap:11px}
+.camp-shell .grade-A .reference-reading,.camp-shell.grade-A .reference-reading{font-size:25px;line-height:1.4;--reference-gap:17px}
+.camp-shell.grade-Pre-A .reference-reading{font-size:28px;line-height:1.42}
+.camp-shell .reference-heading h3{font-size:24px;margin:4px 0}
+.camp-shell .reference-heading p{font-size:12px;margin:0}
+.reference-parts button,.cloze-part-tools button{min-height:44px;min-width:44px}
+.camp-shell .narration-bar button,.camp-shell .narration-bar select,.reference-voice button,.reference-voice select{min-height:44px;font-size:14px}
+.camp-shell .cloze-word{min-height:44px;padding:7px 11px;font-size:18px;touch-action:none}
+.camp-shell .cloze-panel .cloze-passage .cloze-blank{min-height:44px;touch-action:none}
+.camp-shell .cloze-bank{padding:9px 11px}
+.camp-shell .cloze-panel:has(.full-passage) .cloze-words{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:10px}
+.camp-shell .cloze-panel:has(.full-passage) .cloze-word{min-width:0;white-space:normal;overflow-wrap:anywhere}
+.camp-shell .cloze-help{font-size:11px;line-height:1.3;margin-top:6px}
+.camp-shell .cloze-passage{height:auto!important;align-self:stretch;min-height:0;min-width:0;overflow:hidden}
+.camp-shell .cloze-padboard .cloze-blank{min-height:44px;font-size:15px;line-height:1.15}
+.camp-shell .cloze-padboard .cloze-blank span{white-space:normal;overflow:visible;text-overflow:clip}
+.camp-shell .cloze-panel .cloze-passage.full-passage{line-height:1.4}
+.camp-shell .workspace[data-view=story] .read-card{grid-template-columns:clamp(180px,18vw,245px) minmax(0,1fr)}
+.camp-shell .workspace[data-view=story] .story{padding:14px 17px;gap:10px}
+.camp-shell .bike-pad{min-height:44px;font-size:14px;touch-action:none}
+.camp-shell .bike-choice{min-height:44px;font-size:16px;touch-action:none}
+.camp-shell .bike-bank{padding:13px;gap:9px}
+.camp-shell .bike-bank #bikeHelp{display:block;font-size:12px;line-height:1.35}
+.camp-shell .bike-bank>.primary{min-height:44px}
+.camp-shell .bike-layout{grid-template-columns:minmax(0,1fr) clamp(200px,22vw,260px);gap:10px}
+.camp-shell .bike-bank .bike-choices{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+/* Use the landscape width for the current text and notebook together. */
+@media(min-width:960px) and (orientation:landscape){
+ .camp-shell .workspace[data-view=questions]{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);grid-template-rows:minmax(0,1fr)}
+ .camp-shell .workspace[data-view=questions] .question-reference{display:flex}
+ .camp-shell .workspace[data-view=questions] .reference-open{display:none}
+}
+/* Display matching pairs together whenever the screen has room. */
+@media(min-height:700px) and (min-width:700px){
+ .camp-shell .reading-match-switch{display:none}
+ .camp-shell .reading-match-rows{gap:9px}
+ .camp-shell .reading-match-rows .reading-match-row{display:grid}
+ .camp-shell .reading-match{gap:12px}
+}
+@media(max-width:1319px),(max-height:729px){
+ .camp-shell:is(.grade-AA,.grade-AAA) .workspace[data-view=story] .read-card{grid-template-columns:minmax(0,1fr)}
+ .camp-shell:is(.grade-AA,.grade-AAA) .workspace[data-view=story] .read-card>.scene{display:none}
+}
+@media(max-width:1100px),(max-height:650px){
+ .camp-shell .workspace[data-view=story] .read-card{grid-template-columns:minmax(0,1fr)}
+ .camp-shell .workspace[data-view=story] .read-card>.scene{display:none}
+}
+/* A side word bank leaves more height for longer text in short landscape windows. */
+@media(min-width:900px) and (orientation:landscape){
+ .camp-shell .cloze-panel:has(.with-pads){grid-template-columns:minmax(0,1fr) 220px;grid-template-rows:auto minmax(0,1fr);column-gap:16px}
+ .camp-shell .cloze-panel:has(.with-pads) .cloze-part-tools{grid-column:1;grid-row:1}
+ .camp-shell .cloze-panel:has(.with-pads) .cloze-passage{grid-column:1;grid-row:2;font-size:21px;line-height:1.45}
+ .camp-shell .cloze-panel .with-pads{grid-column:2;grid-row:1 / span 2;align-self:stretch;display:flex;flex-direction:column;gap:9px;justify-content:center}
+ .camp-shell .with-pads .cloze-padboard{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:0}
+ .camp-shell .with-pads .cloze-bank-heading{display:flex;flex-direction:column;gap:4px;font-size:13px;margin:0}
+ .camp-shell .with-pads .cloze-words{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+ .camp-shell .with-pads .cloze-word{min-width:0;font-size:16px;padding:6px 4px;overflow-wrap:anywhere}
+ .camp-shell .with-pads .cloze-help{font-size:11px;margin:0}
+}
+@media(max-height:650px){
+ .camp-shell{padding:8px;gap:6px}
+ .camp-shell .topbar{min-height:32px}
+ .camp-shell .wordmark{font-size:20px}
+ .camp-shell .workspace[data-view=questions] .assessment{padding:12px 15px 12px 39px;gap:8px}
+ .camp-shell .assessment-head h2{font-size:21px}
+ .camp-shell .assessment-head h2:before{font-size:24px}
+ .camp-shell .reading-question{gap:11px;padding-top:8px}
+ .camp-shell .reading-question h3{font-size:21px}
+ .camp-shell .reading-pad{min-height:52px;font-size:20px;padding:9px}
+ .camp-shell .reading-choice{min-height:52px;font-size:17px;padding:8px 5px}
+ .camp-shell .reading-match .reading-choice{font-size:16px;min-height:48px}
+ .camp-shell .reading-match-help{display:none}
+ .camp-shell .workspace[data-view=questions] .question-reference{padding:14px;gap:8px}
+ .camp-shell .reference-heading h3{font-size:22px}
+ .camp-shell .reference-heading p{display:none}
+ .camp-shell .reference-heading .eyebrow{font-size:10px}
+ .camp-shell .reference-reading{font-size:19px;line-height:1.4}
+ .camp-shell.grade-A .reference-reading{font-size:23px}
+ .camp-shell.grade-Pre-A .reference-reading{font-size:26px}
+ .camp-shell .bike-bank h2{font-size:19px}
+ .camp-shell .bike-bank{padding:10px;gap:7px}
+ .camp-shell .bike-bank .pencil-mark{display:none}
+ .camp-shell .bike-choice{font-size:14px}
+ .camp-shell .bike-notebook{padding:10px;gap:7px}
+ .camp-shell .bike-heading h1{font-size:23px}
+ .camp-shell .bottom-bar.with-narration{flex-wrap:nowrap;gap:8px}
+ .camp-shell .bottom-bar.with-narration .narration-bar{width:auto;flex:0 1 auto;min-height:44px;padding:3px 6px;flex-wrap:nowrap}
+ .camp-shell .bottom-bar.with-narration .voice-status{display:none}
+ .camp-shell .bottom-bar.with-narration #saveStatus{font-size:9px;flex:1}
+ .camp-landing .landing-body{padding:18px 24px;gap:8px}
+ .camp-landing h1{font-size:40px}
+ .camp-landing .intro{font-size:14px;line-height:1.35}
+ .camp-landing .level-choice{min-height:56px;padding:8px}
+ .camp-landing .level-desc{margin:0;font-size:12px}
+ .camp-landing .rules{font-size:11.5px;padding:8px 10px}
+ .camp-landing .start-actions button,.camp-landing .id-field select{min-height:44px}
+}
+@media(max-width:959px),(orientation:portrait){
+ .camp-shell .workspace[data-view=questions]{grid-template-columns:minmax(0,1fr)}
+ .camp-shell .workspace[data-view=questions] .question-reference{display:none}
+ .camp-shell .workspace[data-view=questions] .reference-open{display:block}
+ .camp-shell .reading-question{padding-top:18px}
+ .camp-shell .reading-question h3{font-size:25px}
+ .camp-shell .reading-choice{font-size:21px;min-height:68px}
+ .camp-shell .reading-pad{min-height:72px;font-size:24px}
+ .camp-shell .reading-match-row{font-size:21px}
+ .camp-shell .reading-match-row .reading-pad{min-height:64px;font-size:21px}
+ .camp-shell .reading-match .reading-choice{min-height:64px;font-size:20px}
+ .camp-shell .bike-layout{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto}
+ .camp-shell .bike-bank{display:grid;grid-template-columns:1fr auto;gap:8px 12px;padding:12px}
+ .camp-shell .bike-bank h2{font-size:20px}
+ .camp-shell .bike-bank #bikeCounter{justify-self:end}
+ .camp-shell .bike-bank .bike-choices{grid-column:1/-1;grid-template-columns:repeat(4,minmax(0,1fr))}
+ .camp-shell .bike-bank #bikeHelp{grid-column:1 / -1}
+ .camp-shell .bike-bank>.primary{grid-column:2;grid-row:auto;margin:0}
+ .camp-shell .bike-pad{font-size:14px}
+}
+@media(orientation:portrait) and (max-width:900px){
+ .camp-landing{grid-template-columns:minmax(0,1fr);grid-template-rows:23% minmax(0,1fr)}
+ .camp-landing .cover-note{bottom:18px;left:24px}
+ .camp-landing .cover-note h2{font-size:27px;margin:0}
+ .camp-landing .cover-note .tag,.camp-landing .cover-note p{display:none}
+ .camp-landing .landing-body{padding:18px 28px;gap:12px}
+ .camp-landing .start-line{grid-template-columns:minmax(150px,1fr) auto}
+}
+@media(max-width:650px){
+ .camp-shell .assessment-head{flex-wrap:wrap}
+ .camp-shell .reading-question h3{font-size:21px}
+ .camp-shell .reading-choice,.camp-shell .reading-match .reading-choice{font-size:16px;min-height:56px}
+ .camp-shell .reading-match-row{font-size:17px}
+ .camp-shell .reading-match-row .reading-pad{font-size:17px;min-height:54px}
+ .camp-shell .bike-bank .bike-choices{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .camp-shell .bike-pad{font-size:11px}
+ .camp-landing{grid-template-rows:minmax(0,1fr)}
+ .camp-landing .start-line{grid-template-columns:minmax(0,1fr)}
+}
+@media print{
+ .camp-shell .workspace[data-view=questions]{grid-template-columns:minmax(0,1fr)}
+ .camp-shell .workspace .question-reference{display:none!important}
+ .camp-shell .reading-question{padding:0}
+ .camp-shell .reading-match-rows .reading-match-row{display:grid!important}
+ .camp-shell .reading-match-switch{display:none}
+}
+
+/* The two work areas fill a landscape display; neither waits behind a tab. */
+@media(min-width:1280px) and (min-height:680px) and (orientation:landscape){
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]){grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);grid-template-rows:minmax(0,1fr);gap:10px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .read-card{display:block!important;grid-column:1;grid-row:1;width:100%;height:100%;margin:0;background:var(--paper);border-radius:15px;overflow:hidden}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .read-card>.scene{display:none}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .story{display:flex!important;height:100%;min-height:0;flex-direction:column;padding:14px;gap:10px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .story h1{font-size:25px!important}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .assessment{display:flex!important;position:relative;grid-column:2;grid-row:1;height:100%;margin:0;width:100%;max-width:none;flex-direction:column;padding:14px 16px 12px 39px;gap:9px;border:1px solid #c3cbb6;border-radius:17px;background-color:#fffdf3;background-image:repeating-linear-gradient(transparent 0,transparent 30px,#dce3d880 30px,#dce3d880 31px)}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .question-reference{display:none!important}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reference-open{display:none}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-question{gap:12px;padding-top:12px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-question h3{font-size:23px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-choice{font-size:18px;min-height:60px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-match .reading-choice{font-size:16px;min-height:56px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-match-row{font-size:17px;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-match-row .reading-pad{font-size:17px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .cloze-panel:has(.with-pads){grid-template-columns:minmax(0,1fr) 200px;column-gap:12px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .with-pads{padding:8px;gap:7px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .with-pads .cloze-word{font-size:15px;min-height:44px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .with-pads .cloze-padboard .cloze-blank{font-size:14px}
+}
+@media(min-width:1800px) and (min-height:800px){
+ .camp-shell .wordmark{font-size:30px}
+ .camp-shell .view-tabs button{font-size:20px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .story h1{font-size:32px!important}
+ .camp-shell.grade-A .cloze-panel .full-passage{font-size:44px;--sentence-gap:30px}
+ .camp-shell.grade-Pre-A .cloze-panel .full-passage{font-size:48px;--sentence-gap:28px}
+ .camp-shell:is(.grade-AA,.grade-AAA) .cloze-panel .full-passage{font-size:32px;line-height:1.45}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-question h3{font-size:36px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-choice{font-size:28px;min-height:100px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-pad{font-size:32px;min-height:104px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-match-row{font-size:28px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-match-row .reading-pad{font-size:28px;min-height:82px}
+ .camp-shell .workspace:is([data-view=story],[data-view=questions]) .reading-match .reading-choice{font-size:26px;min-height:88px}
+ .camp-shell .cloze-word{font-size:28px;min-height:60px}
+}
+.screen-mode{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:44px;min-height:44px;padding:8px 10px;flex:none;white-space:nowrap;border-radius:9px}
+.screen-mode svg{width:21px;height:21px;flex:none;pointer-events:none}
+.teacher-voice-entry{min-width:44px;min-height:44px}
+.screen-label{font-size:12px;font-weight:700;pointer-events:none}
+.top-info .screen-mode{color:#fff4dc;background:#3e5947;border-color:#81926c}
+.start-actions .screen-label{display:none}
+.start-actions .screen-mode{padding:8px;min-width:44px}
+.completion{position:relative}.receipt .screen-mode{position:absolute;right:14px;top:14px}.receipt .screen-label{display:none}
+#screenModeNotice{position:fixed;z-index:10010;right:16px;bottom:20px;max-width:min(420px,calc(100vw - 32px));padding:14px;border:1px solid #b4bd9b;border-radius:12px;background:#fff9e7;color:#354e3b;font:14px/1.4 Arial,sans-serif;box-shadow:0 4px 16px #0003}
+#screenModeNotice button{min-height:44px;margin-top:10px;padding:8px 14px;display:block}
+@media(max-width:959px){.top-info .screen-label{display:none}}
+@media print{.screen-mode,#screenModeNotice{display:none!important}}
+
+/* Keep words next to the passage instead of pinning them to the screen bottom. */
+.camp-shell .cloze-panel:has(.full-passage){grid-template-rows:minmax(0,max-content) auto;align-content:start}
+.camp-shell .cloze-panel .cloze-passage.full-passage{align-self:start}
+.cloze-drag-ghost{transform:none;max-width:min(360px,calc(100vw - 20px));min-height:44px;display:flex;align-items:center;justify-content:center;white-space:normal;overflow-wrap:anywhere;line-height:1.25;box-sizing:border-box}
+.cloze-word,.cloze-blank,.reading-choice,.reading-pad,.bike-choice,.bike-pad{-webkit-user-drag:none}
+
+/* Every level keeps the actual word choices immediately after the current text. */
+.camp-shell #clozePanel{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:8px}
+.camp-shell #clozePanel>.cloze-part-tools{flex:none}
+.camp-shell #clozePanel>.cloze-passage{flex:0 1 auto;align-self:stretch;min-height:0}
+.camp-shell #clozePanel>.cloze-bank{flex:none;align-self:stretch;display:block;margin:0;padding:9px 11px}
+.camp-shell #clozePanel .cloze-bank-heading{display:flex;flex-direction:row;align-items:center;margin:0 0 6px}
+.camp-shell #clozePanel .cloze-words{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);grid-template-columns:none;gap:8px}
+.camp-shell #clozePanel .cloze-word{min-width:0;min-height:44px;font-size:18px;padding:7px 9px;overflow-wrap:anywhere}
+.camp-shell #clozePanel .with-pads .cloze-padboard{grid-template-columns:repeat(var(--pad-count),minmax(0,1fr));margin:0 0 8px;gap:6px}
+.camp-shell #clozePanel .with-pads .cloze-bank-heading{font-size:13px}
+.camp-shell #clozePanel .with-pads .cloze-help{font-size:11px;margin:6px 0 0}
+@media(min-width:1800px) and (min-height:800px){.camp-shell #clozePanel .cloze-word{font-size:28px;min-height:60px}}
+@media(max-width:800px){.camp-shell #clozePanel .with-pads .cloze-words{grid-auto-flow:row;grid-template-columns:repeat(3,minmax(0,1fr))}.camp-shell #clozePanel .with-pads .cloze-padboard{grid-template-columns:repeat(3,minmax(0,1fr))}.camp-shell #clozePanel .with-pads .cloze-word{font-size:16px}}

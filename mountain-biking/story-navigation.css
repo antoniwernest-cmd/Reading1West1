@@ -1,0 +1,60 @@
+/* Keep both counts visible without taking a second row on small screens. */
+@media screen{
+ .camp-shell:has(>.activity-progress){grid-template-rows:auto auto auto minmax(0,1fr) auto}
+ .camp-shell.bike-shell:has(>.activity-progress){grid-template-rows:auto auto minmax(0,1fr) auto}
+}
+.activity-progress{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(12px,2vw,28px);flex:none;padding:1px 2px 2px}
+.activity-progress-caption{display:flex;align-items:baseline;justify-content:space-between;gap:4px;color:#f4fcff;font:12px/1.25 Arial,sans-serif;margin-bottom:4px;white-space:nowrap}
+.activity-progress-caption strong{font-weight:700}.activity-progress-caption span{color:#e1f2f2;font-variant-numeric:tabular-nums}
+.activity-progress-track{height:18px;border-radius:12px;background:#ffffff30;overflow:hidden;box-shadow:inset 0 1px 3px #00131d70}
+.activity-progress-track i{display:block;height:100%;background:#ffdc36;border-radius:inherit;transition:width .18s ease-out}
+.activity-progress-meter:last-child .activity-progress-track i{background:#88f553}
+html[data-story-theme=ocean] .activity-progress-meter:last-child .activity-progress-track i{background:#39e9ff}
+
+/* A raised face and a solid edge make the reading controls easy to find. */
+:root{--step-face:#2f664c;--step-light:#4a8267;--step-edge:#163d2c;--step-back:#eef8ef;--step-back-edge:#71917e;--step-ink:#16452e}
+html[data-story-theme=ocean]{--step-face:#087fa1;--step-light:#2199b5;--step-edge:#07536e;--step-back:#e6f7fd;--step-back-edge:#609bad;--step-ink:#124f67}
+.cloze-part-tools:has([data-cloze-part]),.reference-parts{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:9px;margin-bottom:5px}
+.cloze-part-tools:has([data-cloze-part])>span,.reference-parts>span{text-align:center;line-height:1.2}
+button.page-step,.camp-shell .assess-foot #nextBtn,.camp-shell .bike-bank #finishBike,#lockDialog #confirmNext,#storyReferenceDialog #closeStoryReference{
+ min-height:44px;min-width:88px;border:1px solid var(--step-edge);border-radius:10px;padding:7px 12px;
+ color:white;background:linear-gradient(var(--step-light),var(--step-face));font:700 15px/1.12 Arial,sans-serif;white-space:nowrap;
+ box-shadow:0 4px 0 var(--step-edge),0 6px 8px #102c3b35,inset 0 1px 0 #ffffff40;transition:transform .1s,box-shadow .1s,filter .1s;
+}
+button.page-step[data-cloze-part='-1'],button.page-step[data-reference-part='-1'],#storyReferenceDialog #closeStoryReference{
+ background:linear-gradient(#fff,var(--step-back));color:var(--step-ink);border-color:var(--step-back-edge);box-shadow:0 4px 0 var(--step-back-edge),0 6px 8px #102c3b30;
+}
+button.page-step:not(:disabled):hover,.camp-shell .assess-foot #nextBtn:hover,.camp-shell .bike-bank #finishBike:hover,#lockDialog #confirmNext:hover,#storyReferenceDialog #closeStoryReference:hover{filter:brightness(1.08)}
+button.page-step:not(:disabled):active,.camp-shell .assess-foot #nextBtn:active,.camp-shell .bike-bank #finishBike:active,#lockDialog #confirmNext:active,#storyReferenceDialog #closeStoryReference:active{transform:translateY(3px);box-shadow:0 1px 0 var(--step-edge)}
+button.page-step:focus-visible,.camp-shell #nextBtn:focus-visible,.camp-shell #finishBike:focus-visible,#lockDialog #confirmNext:focus-visible,#storyReferenceDialog #closeStoryReference:focus-visible{outline:3px solid #efad32;outline-offset:3px}
+button.page-step:disabled{opacity:1;color:#52626a;background:#e8eef1;border-color:#a5b4bb;box-shadow:0 2px 0 #a5b4bb;cursor:default}
+.camp-shell .assess-foot #nextBtn,.camp-shell .bike-bank #finishBike,#lockDialog #confirmNext{white-space:normal}
+.camp-shell #clozePanel>.cloze-bank{flex-shrink:0}
+/* In short windows the notebook gets the full width; the story stays available in its tab. */
+@media screen and (max-height:670px){
+ .activity-progress-track{height:16px}
+ .camp-shell .workspace[data-view=questions]{grid-template-columns:minmax(0,1fr)}
+ .camp-shell .workspace[data-view=questions] .question-reference{display:none!important}
+ .camp-shell .workspace[data-view=questions] .reference-open{display:block!important}
+ .camp-shell .reading-question.reading-match.single-pair{display:grid!important;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);grid-template-rows:auto auto auto;align-content:start;align-items:start;gap:8px 14px!important}
+ .camp-shell .reading-match.single-pair>h3,.camp-shell .reading-match.single-pair>.reading-match-switch{grid-column:1/-1}
+ .camp-shell .reading-match.single-pair>.reading-match-rows{grid-column:1;grid-row:3;min-width:0}
+ .camp-shell .reading-match.single-pair>.reading-bank{grid-column:2;grid-row:3;min-width:0}
+}
+@media(max-width:550px){.activity-progress{gap:10px}.activity-progress-caption{font-size:11px}.cloze-part-tools:has([data-cloze-part]),.reference-parts{gap:6px}button.page-step{min-width:78px;padding-inline:8px}.camp-shell .assess-foot #nextBtn{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.activity-progress-track i,button.page-step{transition:none}}
+@media print{.activity-progress,button.page-step{display:none!important}}
+
+.project-brand{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.mystica-return{color:inherit;font-size:12px;letter-spacing:0;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+.mystica-return:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+
+.camp-landing .level-choices { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.camp-landing .level-choice { min-width: 0; }
+.camp-shell.grade-Pre-AA .reference-reading { font-size: calc(27px * var(--activity-scale)) !important; }
+@media (max-width: 600px) {
+ .camp-landing .level-choices { gap: 5px; }
+ .camp-landing .level-choice { padding-inline: 3px; }
+ .camp-landing .level-choice b { font-size: clamp(10px, 3.45vw, 16px); white-space: nowrap; }
+ .camp-landing .level-choice span { overflow-wrap: anywhere; }
+}
